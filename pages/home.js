@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Layout>
       <Hero />
-      {/* <ChooseUs /> */}
+      <ChooseUs />
     </Layout>
   );
 };
