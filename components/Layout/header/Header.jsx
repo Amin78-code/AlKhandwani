@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Head from "next/head";
+import Logo from '../../../assets/images/logo/logo.png'
 
 function Header() {
   return (
@@ -20,9 +22,12 @@ function Header() {
           class="w-full max-w-[1170px] mx-auto flex justify-between items-center"
         >
           <div class="logo">
-            <a href="#home">logo</a>
+            <a href="#home">
+                
+                <Image src={Logo} width={200} height={44} />
+            </a>
           </div>
-          <ul className="flex justify-between items-center gap-x-[20px]">
+          <ul className="text-[14px] flex justify-between items-center gap-x-[26px]">
             <li class="font-[600]">
               <a href="#home" id="menu_home" class="menu-item active">
                 HOME
@@ -58,6 +63,9 @@ function Header() {
               <a href="#contact" id="menu_contact" class="menu-item">
                 CONTACTS
               </a>
+            </li>
+            <li>
+            <button type="button" class="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center">Call Now</button>
             </li>
           </ul>
         </nav>
