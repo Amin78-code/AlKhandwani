@@ -10,11 +10,11 @@ function Hero() {
       </div>
       {/* overlay */}
       <div
-        className={`${styles.inset_shadow_1} bg-[#00000080] w-full h-full absolute left-0 top-0 z-[-1]`}
+        className={`${styles.inset_shadow_1} bg-[#0000004f] w-full h-full absolute left-0 top-0 z-[-1]`}
       ></div>
       <div className="max-w-[700px] text-center text-white mt-[20px]">
         <h1 className="text-[70px] leading-[70px] font-[700]">Your Best Tour Choice</h1>
-        <p className="text-[18px] leading-[24px] font-[400] bg-[#000000ab] p-[20px] rounded-[10px] mt-[20px]">
+        <p className="text-[20px] leading-[26px] font-[400] bg-[#000000ab ] p-[20px ] rounded-[10px] mt-[20px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s

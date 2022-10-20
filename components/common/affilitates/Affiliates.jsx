@@ -8,24 +8,24 @@ import Company6 from "../../../assets/images/companies/1(6).jpg";
 
 function Affiliates() {
   return (
-    <section className="bg-[#903636] py-[80px]">
+    <section className="bg-[#903636 ] bg-gray-100 py-[80px] border border-l-0 border-r-0">
       <div className="w-full max-w-[1170px] mx-auto flex justify-around">
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company1} />
         </div>
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company2} />
         </div>
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company3} />
         </div>
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company4} />
         </div>
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company5} />
         </div>
-        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden">
+        <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company6} />
         </div>
       </div>
