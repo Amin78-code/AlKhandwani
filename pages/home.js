@@ -36,15 +36,6 @@ const Home = () => {
     <Layout>
       <Hero />
       <ChooseUs />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Affiliates />
       <CTA />
       <Testimonial />
