@@ -16,7 +16,7 @@ function Hero() {
         <h1 className="text-[70px] leading-[70px] font-[700]">Your Best Tour Choice</h1>
         <p className="text-[20px] leading-[26px] font-[400] bg-[#000000ab ] p-[20px ] rounded-[10px] mt-[20px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever
           since the 1500s
         </p>
         <button type="button" className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-[#903636] rounded-lg text-md px-10 py-4 text-center mr-2 mb-2 mt-8">Get Started</button>
