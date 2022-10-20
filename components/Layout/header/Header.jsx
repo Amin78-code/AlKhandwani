@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
-import Logo from '../../../assets/images/logo/logo.png'
+import Logo from '../../../assets/images/logo/logo.png';
 
 function Header() {
   return (
@@ -22,8 +22,7 @@ function Header() {
           class="w-full max-w-[1170px] mx-auto flex justify-between items-center"
         >
           <div class="logo">
-            <a href="#home">
-                
+            <a href="#home">                
                 <Image src={Logo} width={200} height={44} />
             </a>
           </div>

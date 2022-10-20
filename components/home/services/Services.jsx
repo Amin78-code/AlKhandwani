@@ -2,9 +2,9 @@ import heroImage from "../../../assets/images/Masjid-ul-Haram-3.jpg";
 import Image from "next/image";
 import ServicesCard from "./ServicesCard";
 
-function Services() {
+function Services({ services }) {
   return (
-    <section className="w-full py-[100px] bg-gray-300">
+    <section className="w-full py-[100px] bg-gray-5 0">
       <div className="max-w-[1170px] mx-auto">
         <div className=" text-center text-[#d4a051]  ">
           <h3 className="text-[35px] font-bold uppercase">
@@ -16,15 +16,9 @@ function Services() {
           </p>
         </div>
         <div className="w-full flex justify-between items-center gap-x-6 mt-[50px]">
-          <a href="#">
-          <ServicesCard />
-          </a>
-          <a href="#">
-          <ServicesCard />
-          </a>
-          <a href="#">
-          <ServicesCard />
-          </a>
+          {services?.map((value, index) => {
+            return <ServicesCard key={value.place + index} service={value} />;
+          })}
         </div>
       </div>
     </section>
