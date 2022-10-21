@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "../../../assets/images/feature-bg.jpg";
 import styles from "../../../styles/Choose.module.css";
 import styles2 from "../../../styles/Hero.module.css";
 import Slider from "react-slick";
@@ -67,12 +66,12 @@ const ChooseUs = () => {
                     There are many variations of passages of Lorem Ipsum
                     available but the majority have suffered alteration.
                   </p>
-                    <button
-              type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
-            >
-             Read More
-            </button>
+                  <button
+                    type="button"
+                    className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
               <div>
@@ -84,12 +83,12 @@ const ChooseUs = () => {
                     There are many variations of passages of Lorem Ipsum
                     available but the majority have suffered alteration.
                   </p>
-                    <button
-              type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
-            >
-             Read More
-            </button>
+                  <button
+                    type="button"
+                    className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
               <div>
@@ -101,12 +100,12 @@ const ChooseUs = () => {
                     There are many variations of passages of Lorem Ipsum
                     available but the majority have suffered alteration.
                   </p>
-                    <button
-              type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
-            >
-             Read More
-            </button>
+                  <button
+                    type="button"
+                    className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
               <div>
@@ -118,12 +117,12 @@ const ChooseUs = () => {
                     There are many variations of passages of Lorem Ipsum
                     available but the majority have suffered alteration.
                   </p>
-                    <button
-              type="button"
-              className="text-white bg-[#d4a051]  rounded-lg text-sm px-7 py-2.5 text-center  "
-            >
-             Read More
-            </button>
+                  <button
+                    type="button"
+                    className="text-white bg-[#d4a051]  rounded-lg text-sm px-7 py-2.5 text-center  "
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </Slider>

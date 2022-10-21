@@ -30,7 +30,7 @@ const Footer = () => (
   <footer
     className="relative before:absolute  before:bg-[#e7b262]
 
-  lg:before:w-[37%] {before:w-[100%]   before:left-0 before:top-0  before:h-[32%] lg:before:h-full 
+  lg:before:w-[37%] before:w-[100%]   before:left-0 before:top-0  before:h-[32%] lg:before:h-full 
 
   after:absolute  after:bg-[#903636] 
 
@@ -46,7 +46,7 @@ const Footer = () => (
             4140 Parker Rd. Allentown, New Mexico 31134
           </p>
         </div>
-        <div className="lg:w-1/2 flex flex-col items-end bg- [#903636] text-[#e7b262]">
+        <div className="lg:w-1/2 flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[50px] md:pt-0">
           <div className="w-full sm:flex justify-between  ">
             <div className="lg:pr-10 pb-12 lg:pb-0">
               <h3 className="mb-6 text-lg   font-bold">Links</h3>
