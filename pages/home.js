@@ -10,6 +10,7 @@ import Layout from "../components/Layout/Layout";
 import Masjid_al_Haram from "../assets/images/Masjid-ul-Haram-1.jpg";
 import Madina from "../assets/images/madina.jpg";
 import mosque from "../assets/images/mosque-gb86620f9b_1280.jpg";
+import IncrediblePlaces from "../components/home/incredible-places/IncrediblePlaces";
 
 const services = [
   {
@@ -41,8 +42,9 @@ const Home = () => {
 
        <ChooseUs />
       <Affiliates />
-      <CTA />
-      <Testimonial />  
+      {/* <CTA />
+      <Testimonial />   */}
+      <IncrediblePlaces />
     </Layout>
   );
 };
