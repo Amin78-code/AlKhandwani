@@ -4,6 +4,7 @@ import CTA from "../components/common/cta/CTA";
 import ChooseUs from "../components/home/choose-us/ChooseUs";
 import Hero from "../components/home/hero/Hero";
 import Services from "../components/home/services/Services";
+import TopDestinations from "../components/home/top-destinations/TopDestinations"
 import Testimonial from "../components/home/testimonial/Testimonial";
 import Layout from "../components/Layout/Layout";
 import Masjid_al_Haram from "../assets/images/Masjid-ul-Haram-1.jpg";
@@ -35,11 +36,13 @@ const Home = () => {
   return (
     <Layout>
       <Hero />
+      <Services services={services} />
+      <TopDestinations />
+
       <ChooseUs />
       <Affiliates />
       <CTA />
       <Testimonial />
-      <Services services={services} />
     </Layout>
   );
 };

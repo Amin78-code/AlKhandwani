@@ -8,7 +8,7 @@ function Services({ services }) {
       <div className="max-w-[1170px] mx-auto">
         <div className=" text-center text-[#d4a051]  ">
           <h3 className="text-[35px] font-bold uppercase">
-            our<span className="text-[#903636]"> services</span>
+            Popular<span className="text-[#903636]"> Packages</span>
           </h3>
           <p className="text-[18px] text-[#000]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam

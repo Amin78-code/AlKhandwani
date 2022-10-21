@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { BsChevronRight } from "react-icons/bs";
+
 import styles from "../../styles/ServicesDetails.module.css";
 import ServicesDescription from "./ServicesDescription";
 import ServicesForm from "./ServicesForm";
@@ -10,10 +12,12 @@ const ServicesDetails = () => {
       <div className={`${styles.bgImage} h-[350px] mx-auto`}>
         <div className="flex flex-col justify-center items-center h-[350px] text-white">
           <h1 className="text-[41px] font-bold">Package</h1>
-          <div className="text-[15px]">
+          <div className="flex justify-center items-center  text-[15px]">
             <Link href={"/"}>
               <a className="">Home</a>
             </Link>
+            <BsChevronRight />
+
             <span className="">Package Details</span>
           </div>
         </div>
