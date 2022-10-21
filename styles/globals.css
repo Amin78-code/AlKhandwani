@@ -45,3 +45,6 @@ a {
 .slick-dots li button {
   color: #903636;
 }
+.trans3 {
+  transition: all .3s ease;
+}

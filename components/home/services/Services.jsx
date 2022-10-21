@@ -15,7 +15,7 @@ function Services({ services }) {
             nonumm
           </p>
         </div>
-        <div className="w-full flex justify-between items-center gap-x-6 mt-[50px]">
+        <div className="w-full flex flex-wrap justify-center items-center gap-x-6 gap-y-6 mt-[50px]">
           {services?.map((value, index) => {
             return <ServicesCard key={value.place + index} service={value} />;
           })}

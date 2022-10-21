@@ -12,7 +12,7 @@ function Hero() {
       <div
         className={`${styles.inset_shadow_1} bg-[#0000004f] w-full h-full absolute left-0 top-0 z-[-1]`}
       ></div>
-      <div className="max-w-[700px] px-[50px] md:px-0 text-center text-white mt-[20px]">
+      <div className="max-w-[700px] px-[20px] md:px-0 text-center text-white mt-[20px]">
         <h1 className="text-[50px] sm:text-[60px] md:text-[70px] leading-[50px] sm:leading-[60px] md:leading-[70px] font-[700]">
           Your Best Tour Choice
         </h1>
