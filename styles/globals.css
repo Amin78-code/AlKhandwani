@@ -18,7 +18,6 @@ a {
 
 * {
   box-sizing: border-box;
-  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,4 +33,15 @@ a {
 .img-container img {
   width: 100% !important;
   height: 100% !important;
+}
+.slick-dots li button:before {
+  font-size: 14px;
+  color: #903636;
+
+}
+.slick-dots li.slick-active button:before {
+  color: #d4a051;
+}
+.slick-dots li button {
+  color: #903636;
 }
