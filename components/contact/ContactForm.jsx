@@ -3,30 +3,29 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="flex flex-col text-[#434e59]">
-      <h1 className="text-[26px] p-[10px] font-semibold   text-center">CONTACT NOW</h1>
       <div className="p-[10px]  ">
         <form>
-          <div className="flex flex-col gap-y-[10px]">
+          <div className="flex flex-col gap-y-[20px]">
             <input
               type="text"
               placeholder="Name"
-              className="p-[10px] border w-[500px] outline-none"
+              className="p-[15px] border w-[500px] outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className="p-[10px] border w-[500px] outline-none"
+              className="p-[15px] border w-[500px] outline-none"
             />
             <input
               type="number"
               placeholder="Phone Number"
-              className="p-[10px] border w-[500px] outline-none"
+              className="p-[15px] border w-[500px] outline-none"
             />
             <textarea
               cols="30"
               rows="10"
               placeholder="Requirements"
-              className="p-[10px] border outline-none"
+              className="p-[15px] border outline-none"
             ></textarea>
             <button
               type="button"

@@ -1,12 +1,11 @@
 .bgImage {
     /* The image used */
-    background-image: url("../assets/images/services/hajj.jpg");
+    background-image: url("../assets/images/services/brd-bg.jpg");
   
 
-    background-attachment: fixed;
-        background-repeat: no-repeat;
-        margin-left: 25%;
-        transform: translate(-9%);
+    
+        
+      
     
   }
 
