@@ -38,7 +38,7 @@ const Footer = () => (
 
   "
   >
-    <div className="max-w-[1170px] mx-auto  relative ">
+    <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
       <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-32 pb-6 lg:pb-28">
         <div className="lg:w-1/4 pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
           <Image src={Logo} width={300} height={70} />

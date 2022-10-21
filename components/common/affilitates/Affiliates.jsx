@@ -9,7 +9,7 @@ import Company6 from "../../../assets/images/companies/1(6).jpg";
 function Affiliates() {
   return (
     <section className="bg-[#903636 ] bg-gray-100 py-[80px] border border-l-0 border-r-0">
-      <div className="w-full max-w-[1170px] mx-auto flex justify-around">
+      <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0 flex flex-wrap justify-center gap-x-[3%] gap-y-[10px]">
         <div className="w-[110px] h-[110px] rounded-[10px] img-container overflow-hidden border">
           <Image src={Company1} />
         </div>

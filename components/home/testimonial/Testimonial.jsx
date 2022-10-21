@@ -6,7 +6,7 @@ import TestimonialCard from "./TestimonialCard";
 function Testimonial() {
   return (
     <section className="w-full py-[100px] bg-gray-50">
-      <div className="max-w-[1170px] mx-auto">
+      <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0">
         <div className=" text-center text-[#d4a051]  ">
           <h3 className="text-[35px] font-bold uppercase">
             what customers <span className="text-[#903636]">says</span>
