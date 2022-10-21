@@ -41,14 +41,10 @@ const Home = () => {
       <TopDestinations />
       <ChooseUs />
       <Affiliates />
-<<<<<<< Updated upstream
-      {/* <CTA />
-      <Testimonial />   */}
+  
       <IncrediblePlaces />
-=======
       <CTA />
       <Testimonial />
->>>>>>> Stashed changes
     </Layout>
   );
 };
