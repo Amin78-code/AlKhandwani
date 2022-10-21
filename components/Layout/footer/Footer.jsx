@@ -42,12 +42,33 @@ const Footer = () => (
     <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
       <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-32 pb-6 lg:pb-28">
         <div className="lg:w-1/4 pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
-          <Image src={Logo} width={300} height={70} />
-          <p className="text-[18px] leading-[20px] mt-[20px]">
+          <Image src={Logo} width={340} height={80} />
+          <p className="text-[18px] leading-[20px] mt-[20px] mb-4">
             4140 Parker Rd. Allentown, New Mexico 31134
           </p>
+          <p className="mb-4">Email: abc@email.com</p>
+          <p className="mb-4">
+            Telephone: <a href="tel:000-000-000">000-000-000</a>
+          </p>
+          <div className="flex lg:justify-left items-left mt-12 lg:mt-5">
+            <a href="#">
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
+                <Icon facebook className={"text-[20px] text-[#1877F2]"} />
+              </div>
+            </a>
+            <a href="#">
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
+                <Icon twitter className={"text-[20px] text-[#1D9BF0]"} />
+              </div>
+            </a>
+            <a href="#">
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
+                <Icon youtube className={"text-[20px] text-[#FF0000]"} />
+              </div>
+            </a>
+          </div>
         </div>
-        <div className="lg:w-1/2 flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[50px] md:pt-0">
+        <div className="lg:w-[60%] flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[50px] md:pt-0">
           <div className="w-full sm:flex justify-between  ">
             <div className="lg:pr-10 pb-12 lg:pb-0">
               <h3 className="mb-6 text-lg   font-bold">Links</h3>
@@ -106,24 +127,6 @@ const Footer = () => (
                 })}
               </div>
             </div>
-          </div>
-          <div className="lg:w-1/2 flex lg:justify-end items-end mt-12 lg:mt-5">
-            <a href="#">
-              <div className="bg-[#e7b262] p-2 rounded-full mr-2.5">
-                {/* <img src="https://cdn.tuk.dev/assets/templates/weCare/fb.png" /> */}
-                <Icon facebook className={'#1877F2'} />
-              </div>
-            </a>
-            <a href="#">
-              <div className="bg-[#e7b262] p-2 rounded-full mr-2.5">
-                <img src="https://cdn.tuk.dev/assets/templates/weCare/twitter.png" />
-              </div>
-            </a>
-            <a href="#">
-              <div className="bg-[#e7b262] p-2 rounded-full mr-2.5">
-                <img src="https://cdn.tuk.dev/assets/templates/weCare/yt.png" />
-              </div>
-            </a>
           </div>
         </div>
       </div>

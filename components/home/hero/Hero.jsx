@@ -1,6 +1,7 @@
 import heroImage from "../../../assets/images/Masjid-ul-Haram-3.jpg";
 import Image from "next/image";
 import styles from "../../../styles/Hero.module.css";
+import Button from "../../common/button/Button";
 
 function Hero() {
   return (
@@ -10,23 +11,18 @@ function Hero() {
       </div>
       {/* overlay */}
       <div
-        className={`${styles.inset_shadow_1} bg-[#0000004f] w-full h-full absolute left-0 top-0 z-[-1]`}
+        className={`${styles.inset_shadow_1} bg-[#9e6a206f] w-full h-full absolute left-0 top-0 z-[-1]`}
       ></div>
-      <div className="max-w-[700px] px-[20px] md:px-0 text-center text-white mt-[20px]">
-        <h1 className="text-[50px] sm:text-[60px] md:text-[70px] leading-[50px] sm:leading-[60px] md:leading-[70px] font-[700]">
-          Your Best Tour Choice
+      <div className="max-w-[840px] px-[20px] md:px-0 text-center text-white mt-[20px]">
+        <h1 className="text-[40px] sm:text-[60px] md:text-[70px] leading-[40px] sm:leading-[60px] md:leading-[70px] font-[700]">
+          Your Best <span className="text-[#d4a051]">Tour Choice</span>
         </h1>
-        <p className="text-[20px] leading-[26px] font-[400] bg-[#000000ab ] p-[20px ] rounded-[10px] mt-[20px]">
+        <p className="text-[16px] sm:text-[20px] leading-[22px] md:leading-[26px] font-[400] bg-[#000000ab ] p-[20px ] rounded-[10px] mt-[20px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry&#39;s standard dummy text
           ever since the 1500s
         </p>
-        <button
-          type="button"
-          className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-[#903636] rounded-lg text-md px-10 py-4 text-center mr-2 mb-2 mt-8"
-        >
-          Get Started
-        </button>
+        <Button btn1 content={"Get Started"} className=" mr-2 mb-2 mt-8" />
       </div>
     </section>
   );
