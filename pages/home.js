@@ -39,10 +39,10 @@ const Home = () => {
       <Services services={services} />
       <TopDestinations />
 
-      <ChooseUs />
+       <ChooseUs />
       <Affiliates />
       <CTA />
-      <Testimonial />
+      <Testimonial />  
     </Layout>
   );
 };
