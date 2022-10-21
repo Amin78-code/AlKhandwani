@@ -40,11 +40,10 @@ const Home = () => {
       <Services services={services} />
       <TopDestinations />
       <ChooseUs />
-      <Affiliates />
-  
-      <IncrediblePlaces />
       <CTA />
       <Testimonial />
+      <Affiliates />
+      <IncrediblePlaces />
     </Layout>
   );
 };

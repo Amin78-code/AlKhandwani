@@ -8,9 +8,9 @@ import ServicesForm from "./ServicesForm";
 
 const ServicesDetails = () => {
   return (
-    <section className="mt-[80px] pb-[40px]">
-      <div className={`${styles.bgImage} h-[350px] mx-auto`}>
-        <div className="flex flex-col justify-center items-center h-[350px] text-white">
+    <section className="mt-[8 0px] pb-[40px]">
+      <div className={`${styles.bgImage} mx-auto`}>
+        <div className="flex flex-col justify-center items-center h-[500px] text-white">
           <h1 className="text-[41px] font-bold">Package</h1>
           <div className="flex justify-center items-center  text-[15px]">
             <Link href={"/"}>
@@ -22,7 +22,7 @@ const ServicesDetails = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-[50px] gap-x-[40px] ">
+      <div className="flex justify-center mt-[50px] gap-x-[10px] ">
         <ServicesDescription />
         <ServicesForm />
       </div>

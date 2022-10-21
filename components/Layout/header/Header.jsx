@@ -4,6 +4,7 @@ import Head from "next/head";
 import Logo from "../../../assets/images/logo/logo.png";
 import Icon from "../../common/icon/Icon";
 import { Fragment, useState } from "react";
+import Link from "next/link";
 
 function Header() {
   const [showMobMenu, setShowMobMenu] = useState(false);
@@ -72,9 +73,11 @@ function Header() {
               </li>
 
               <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a href="#contact" id="menu_contact" className="menu-item">
-                  CONTACT
-                </a>
+                <Link href="/contact">
+                  <a id="menu_contact" className="menu-item">
+                    CONTACT
+                  </a>
+                </Link>
               </li>
               <li>
                 <button
@@ -160,16 +163,16 @@ function Header() {
             </li>
 
             <li className="w-full text-center">
-              <a
-                href="#contact"
-                id="menu_contact"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                CONTACT
-              </a>
+              <Link href="/contact">
+                <a
+                  id="menu_contact"
+                  className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
+                >
+                  CONTACT
+                </a>
+              </Link>
             </li>
             <li>
-             
               {/* <button
                 type="button"
                 className="text-[#fff] bg-[#903636] hover:bg-[#d4a051] hover:border-[#903636] hover:text-[#903636] border-[1px] border-[transparent] group-hover:text-black rounded-lg text-sm px-14 py-3 text-center mt-4"

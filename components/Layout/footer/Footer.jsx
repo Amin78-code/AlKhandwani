@@ -68,7 +68,7 @@ const Footer = () => (
             </a>
           </div>
         </div>
-        <div className="lg:w-[60%] flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[50px] md:pt-0">
+        <div className="lg:w-[60%] flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[100px] md:pt-0">
           <div className="w-full sm:flex justify-between  ">
             <div className="lg:pr-10 pb-12 lg:pb-0">
               <h3 className="mb-6 text-lg   font-bold">Links</h3>

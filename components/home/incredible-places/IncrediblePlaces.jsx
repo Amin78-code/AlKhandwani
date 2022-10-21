@@ -52,7 +52,7 @@ const IncrediblePlaces = () => {
     ],
   };
   return (
-    <section className=" py-[100px] px-[15px]">
+    <section className="py-[40px] md:py-[100px] px-[15px]">
       <div className="">
         <div className=" text-center text-[#d4a051]">
           <h3 className="text-[35px] font-bold uppercase">
@@ -64,7 +64,7 @@ const IncrediblePlaces = () => {
           </p>
         </div>
         {/* slider */}
-        <div className="mt-[50px]">
+        <div className="mt-[20px] md:mt-[50px]">
           <Slider {...settings}>
             {sliderData.map((data) => {
               return (

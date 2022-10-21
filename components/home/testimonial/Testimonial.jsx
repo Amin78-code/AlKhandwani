@@ -24,7 +24,7 @@ const settings = {
 
 function Testimonial() {
   return (
-    <section className="w-full pt-[30px] pb-[150px] bg-gray-50">
+    <section className="w-full pt-[30px] pb-[70px] md:pb-[150px] bg-gray-50">
       <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0">
         <div className=" text-center text-[#d4a051]  ">
           <h3 className="text-[35px] font-bold uppercase">

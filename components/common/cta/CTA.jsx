@@ -19,7 +19,7 @@ function CTA() {
             </div>
           </div>
           <div
-            className={`flex flex-row md:flex-col lg:flex-row gap-y-[10px] lg:gap-y-0 justify-start md:justify-end items-center gap-x-5 w-full md:w-[45%]`}
+            className={`flex flex-row md:flex-col lg:flex-row gap-y-[10px] lg:gap-y-0 justify-start md:justify-end items-center gap-x-2 md:gap-x-6 w-full md:w-[45%]`}
           >
             <Button btn1 content="Contact Us" />
             <Button btn1 content="Our Services" />
