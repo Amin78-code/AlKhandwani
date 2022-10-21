@@ -4,6 +4,7 @@ import islamabad from "../../../assets/images/latest-tour/islamabad.jpg";
 import kashmir from "../../../assets/images/latest-tour/kashmir.jpg";
 import muree from "../../../assets/images/latest-tour/muree.jpg";
 import LatestTourCard from "./latest-tour-card/LatestTourCard";
+import Icon from "../../common/icon/Icon";
 
 const latestTours = [
   {
@@ -109,7 +110,8 @@ const Footer = () => (
           <div className="lg:w-1/2 flex lg:justify-end items-end mt-12 lg:mt-5">
             <a href="#">
               <div className="bg-[#e7b262] p-2 rounded-full mr-2.5">
-                <img src="https://cdn.tuk.dev/assets/templates/weCare/fb.png" />
+                {/* <img src="https://cdn.tuk.dev/assets/templates/weCare/fb.png" /> */}
+                <Icon facebook className={'#1877F2'} />
               </div>
             </a>
             <a href="#">
