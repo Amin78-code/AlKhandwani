@@ -28,7 +28,7 @@ const TourReviews = () => {
       </h2>
       {reviwes.map((review) => {
         return (
-          <div className="flex gap-x-[20px] border-b border-[#e2cbcb] py-[10px]">
+          <div key={review.id} className="flex gap-x-[20px] border-b border-[#e2cbcb] py-[10px]">
             <div className="w-[150px]">
               <Image src={review.image} alt="img" />
             </div>

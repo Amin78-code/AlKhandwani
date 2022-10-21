@@ -14,7 +14,6 @@ const sliderData = [
   { id: "s6", sliderImage: img3 },
   { id: "s7", sliderImage: img1 },
   { id: "s8", sliderImage: img4 },
-
 ];
 
 const IncrediblePlaces = () => {
@@ -68,11 +67,9 @@ const IncrediblePlaces = () => {
           <Slider {...settings}>
             {sliderData.map((data) => {
               return (
-                <>
-                <div className="mb-[20px] px-[5px]">
+                <div key={data.id} className="mb-[20px] px-[5px]">
                   <Image src={data.sliderImage} alt="img" />
                 </div>
-                </>
               );
             })}
           </Slider>

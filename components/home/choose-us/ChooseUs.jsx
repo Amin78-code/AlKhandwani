@@ -85,25 +85,23 @@ const ChooseUs = () => {
               <Slider {...settings}>
                 {data.map((data) => {
                   return (
-                    <>
-                      <div>
-                        <div className="w-full sm:w-[300px] md:w-[360px] lg:w-[300px] xl:w-[360px] h-[379px] mx-auto flex justify-center flex-col gap-y-[20px] mb-[20px] items-center  border hover:border-transparent hover:bg-[#d4a051] hover:text-white  bg-white p-10 group  ">
-                          <i
-                            className={`fa ${data.icon} text-[35px] text-[#d4a051] border-[2px] border-[#d4a051] group-hover:text-white group-hover:border-[#FFF] rounded-full p-5`}
-                          ></i>
-                          <h3 className="text-[21px] sm:text-[16px] lg:text-[21px] font-semibold">
-                            {data.title}
-                          </h3>
-                          <p>{data.content}</p>
-                          <button
-                            type="button"
-                            className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
-                          >
-                            Read More
-                          </button>
-                        </div>
+                    <div key={data.title}>
+                      <div className="w-full sm:w-[300px] md:w-[360px] lg:w-[300px] xl:w-[360px] h-[379px] mx-auto flex justify-center flex-col gap-y-[20px] mb-[20px] items-center  border hover:border-transparent hover:bg-[#d4a051] hover:text-white  bg-white p-10 group  ">
+                        <i
+                          className={`fa ${data.icon} text-[35px] text-[#d4a051] border-[2px] border-[#d4a051] group-hover:text-white group-hover:border-[#FFF] rounded-full p-5`}
+                        ></i>
+                        <h3 className="text-[21px] sm:text-[16px] lg:text-[21px] font-semibold">
+                          {data.title}
+                        </h3>
+                        <p>{data.content}</p>
+                        <button
+                          type="button"
+                          className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
+                        >
+                          Read More
+                        </button>
                       </div>
-                    </>
+                    </div>
                   );
                 })}
               </Slider>
