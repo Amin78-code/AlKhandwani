@@ -31,16 +31,16 @@ const Footer = () => (
   <footer
     className="relative before:absolute  before:bg-[#e7b262]
 
-  lg:before:w-[37%] before:w-[100%]   before:left-0 before:top-0  before:h-[32%] lg:before:h-full 
+  lg:before:w-[37%] before:w-[100%]   before:left-0 before:top-0  before:h-[47%] lg:before:h-full 
 
   after:absolute  after:bg-[#903636] 
 
-  lg:after:w-[63%] after:w-[100%]  after:right-[unset]  after:bottom-0 after:h-[68%] lg:after:right-0 lg:after:top-0 lg:after:h-full 
+  lg:after:w-[63%] after:w-[100%]  after:right-[unset]  after:bottom-0 after:h-[53%] lg:after:right-0 lg:after:top-0 lg:after:h-full 
 
   "
   >
     <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
-      <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-32 pb-6 lg:pb-28">
+      <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-[80px] pb-6 lg:pb-[80px]">
         <div className="lg:w-1/4 pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
           <Image src={Logo} width={340} height={80} />
           <p className="text-[18px] leading-[20px] mt-[20px] mb-4">
