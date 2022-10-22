@@ -30,7 +30,7 @@ function Testimonial() {
           <h3 className="text-[35px] font-bold uppercase">
             what customers <span className="text-[#903636]">says</span>
           </h3>
-          <p className="text-[18px] text-[#000]">
+          <p className="text-[18px] text-[#333]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonumm
           </p>

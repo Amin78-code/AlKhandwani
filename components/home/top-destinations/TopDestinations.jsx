@@ -20,7 +20,7 @@ const TopDestinations = () => {
           <h3 className="text-[35px] font-bold uppercase">
             Top<span className="text-[#903636]"> Destinations</span>
           </h3>
-          <p className="text-[18px] text-[#000]">
+          <p className="text-[18px] text-[#333]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonumm
           </p>
@@ -49,13 +49,13 @@ const TopDestinations = () => {
                   <div className="flex gap-x-[30px]">
                     <button
                       type="button"
-                      className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-black hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                      className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
                     >
                       More Details
                     </button>
                     <button
                       type="button"
-                      className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-black hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                      className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-[#333] hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
                     >
                       Book Now
                     </button>
@@ -92,13 +92,13 @@ const TopDestinations = () => {
                     <div className="flex gap-x-[30px]">
                       <button
                         type="button"
-                        className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-black hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                        className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
                       >
                         More Details
                       </button>
                       <button
                         type="button"
-                        className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-black hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                        className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-[#333] hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
                       >
                         Book Now
                       </button>

@@ -96,7 +96,7 @@ const ChooseUs = () => {
                         <p>{data.content}</p>
                         <button
                           type="button"
-                          className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black rounded-lg text-sm px-7 py-2.5 text-center  "
+                          className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-[#333] rounded-lg text-sm px-7 py-2.5 text-center  "
                         >
                           Read More
                         </button>

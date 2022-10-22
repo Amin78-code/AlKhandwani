@@ -14,7 +14,7 @@ function ServicesCard({ service }) {
             <Image src={service.img} />
           </div>
           <div className="h-[50px] trans3 group-hover:h-full group-hover:pb-6 flex justify-end items-center flex-col overflow-hidden bg-[#ffedda] border text-center p-6 pb-[5px] absolute bottom-0 left-0">
-            <p className="text-[14px] text-[#000] leading-[20px] pb-[20px]">
+            <p className="text-[14px] text-[#333] leading-[20px] pb-[20px]">
               {service?.desc}
             </p>
             <h5 className="text-[20px] text-[#903636] leading-[22px] font-[500] mt-4">

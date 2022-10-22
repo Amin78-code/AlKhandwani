@@ -9,7 +9,7 @@ function TestimonialCard() {
         <div className="hidden sm:block max-w-[80px] max-h-[80px] sm:max-w-[115px] sm:max-h-[115px] trans3 group-hover:scale-[1.1] rounded-full img-container border-[2px] border-[#d4a05151] overflow-hidden absolute left-[-40px] sm:left-[-80px] top-[50%] translate-y-[-50%]">
           <Image src={profile1} />
         </div>
-        <p className="text-[12px] sm:text-[14px] text-[#000] leading-[16px] sm:leading-[20px]">
+        <p className="text-[12px] sm:text-[14px] text-[#333] leading-[16px] sm:leading-[20px]">
           The standard chunk of Lorem Ipsum used since the 1500s is reproduced
           below for those interested. Sections 1.10.32 and 1.10.33 from  de
           Finibus Bonorum et Malorum  by Cicero are also reproduced in their

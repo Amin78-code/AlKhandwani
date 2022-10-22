@@ -244,7 +244,7 @@ function Header() {
             <li>
               {/* <button
                 type="button"
-                className="text-[#fff] bg-[#903636] hover:bg-[#d4a051] hover:border-[#903636] hover:text-[#903636] border-[1px] border-[transparent] group-hover:text-black rounded-lg text-sm px-14 py-3 text-center mt-4"
+                className="text-[#fff] bg-[#903636] hover:bg-[#d4a051] hover:border-[#903636] hover:text-[#903636] border-[1px] border-[transparent] group-hover:text-[#333] rounded-lg text-sm px-14 py-3 text-center mt-4"
               >
                 Call Now
               </button> */}
