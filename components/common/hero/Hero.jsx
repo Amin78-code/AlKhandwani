@@ -2,8 +2,6 @@ import React from "react";
 import styles from "../../../styles/ServicesDetails.module.css";
 import Link from "next/link";
 import Icon from "../icon/Icon";
-import About from "../../about/About";
-import CustomerReviews from "../../about/CustomerReviews";
 
 function Hero({ page, slug }) {
   return (
@@ -20,9 +18,6 @@ function Hero({ page, slug }) {
           </div>
         </div>
       </div>
-      <About />
-      {/* <CustomerReviews /> */}
-      
     </>
   );
 }
