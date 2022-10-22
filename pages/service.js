@@ -9,6 +9,7 @@ import Islamabad from "../assets/images/islamabad.jpg";
 import naran from "../assets/images/naran.jpg";
 import lahore from "../assets/images/lahore.jpg";
 import Affiliates from "../components/common/affilitates/Affiliates";
+import ChooseUs from "../components/home/choose-us/ChooseUs";
 
 const services = [
   {
@@ -60,7 +61,7 @@ function Service() {
         headingPart2="We provide"
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
       />
-      <Affiliates />
+      <ChooseUs />
     </Layout>
   );
 }
