@@ -48,3 +48,6 @@ a {
 .trans3 {
   transition: all .3s ease;
 }
+.trans2 {
+  transition: all .2s ease;
+}

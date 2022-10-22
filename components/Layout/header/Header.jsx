@@ -43,7 +43,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     HOME
@@ -56,7 +56,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/about" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     ABOUT
@@ -69,7 +69,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/service" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     SERVICES
@@ -82,7 +82,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/services/hajj" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     HAJJ
@@ -95,7 +95,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/services/umrah" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     UMRAH
@@ -108,7 +108,7 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/air-tickting" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     AIR TICKTING
@@ -121,27 +121,32 @@ function Header() {
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
                       slug == "/contact" &&
-                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                      "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
                     CONTACT
                   </li>
                 </a>
               </Link>
-              <li>
-                <button
-                  type="button"
-                  className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center"
-                >
-                  Call Now
-                </button>
-              </li>
+              <a href="tel:+92 300-8248285">
+                <li>
+                  <button
+                    type="button"
+                    className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center"
+                  >
+                    Call Now
+                  </button>
+                </li>
+              </a>
             </ul>
-            <span onClick={() => setShowMobMenu(!showMobMenu)}>
+            <span
+              className="block lg:hidden"
+              onClick={() => setShowMobMenu(!showMobMenu)}
+            >
               <Icon
                 burgerMenu
                 className={
-                  "block lg:hidden text-[30px] px-1.5 py-1 border broder-white w-[50px] h-[40px] rounded-[5px] cursor-pointer relative z-[3]"
+                  " text-[30px] px-1.5 py-1 border broder-white w-[50px] h-[40px] rounded-[5px] cursor-pointer relative z-[3]"
                 }
               />
             </span>
@@ -151,7 +156,7 @@ function Header() {
       {showMobMenu == true ? (
         <div className="fixed w-full h-[100vh] bg-[#D4A051] z-[11]">
           <div className="logo p-5">
-            <Link href="/"> 
+            <Link href="/">
               <a>
                 <Image src={Logo} width={200} height={44} />
               </a>

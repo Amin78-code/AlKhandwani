@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../../../styles/Hero.module.css";
 import TestimonialCard from "./TestimonialCard";
 import Slider from "react-slick";
+import SectionHeader from "../../common/section-header/SectionHeader";
 
 const settings = {
   centerMode: true,
@@ -12,29 +13,28 @@ const settings = {
   speed: 500,
   slidesToShow: 2,
   slidesToScroll: 1,
-  responsive: [{
-    breakpoint: 991,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      initialSlide: 1
-    }
-  }]
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+      },
+    },
+  ],
 };
 
 function Testimonial() {
   return (
     <section className="w-full pt-[30px] pb-[70px] md:pb-[150px] bg-gray-50">
       <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0">
-        <div className=" text-center text-[#d4a051]  ">
-          <h3 className="text-[35px] font-bold uppercase">
-            what customers <span className="text-[#903636]">says</span>
-          </h3>
-          <p className="text-[18px] text-[#333]">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonumm
-          </p>
-        </div>
+        <SectionHeader
+          headingPart1="what customers"
+          headingPart2="says"
+          subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
+        />
+
         <div className="w-full mt-[50px]">
           <Slider {...settings}>
             <div>

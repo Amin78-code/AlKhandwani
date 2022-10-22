@@ -6,6 +6,7 @@ import Company3 from "../../../assets/images/companies/1(3).jpg";
 import Company4 from "../../../assets/images/companies/1(4).jpg";
 import Company5 from "../../../assets/images/companies/1(5).jpg";
 import Company6 from "../../../assets/images/companies/1(6).jpg";
+import SectionHeader from "../section-header/SectionHeader";
 
 function Affiliates() {
   const settings = {
@@ -25,10 +26,10 @@ function Affiliates() {
           slidesToScroll: 5,
           infinite: true,
           autoplay: true,
-           speed: 3000,
-           autoplaySpeed: 3000,
-           cssEase: "linear",
-           arrows: false,
+          speed: 3000,
+          autoplaySpeed: 3000,
+          cssEase: "linear",
+          arrows: false,
         },
       },
       {
@@ -38,10 +39,10 @@ function Affiliates() {
           slidesToScroll: 4,
           infinite: true,
           autoplay: true,
-           speed: 3000,
-           autoplaySpeed: 3000,
-           cssEase: "linear",
-           arrows: false,
+          speed: 3000,
+          autoplaySpeed: 3000,
+          cssEase: "linear",
+          arrows: false,
         },
       },
       {
@@ -51,10 +52,10 @@ function Affiliates() {
           slidesToScroll: 3,
           infinite: true,
           autoplay: true,
-           speed: 3000,
-           autoplaySpeed: 3000,
-           cssEase: "linear",
-           arrows: false,
+          speed: 3000,
+          autoplaySpeed: 3000,
+          cssEase: "linear",
+          arrows: false,
         },
       },
     ],
@@ -62,11 +63,12 @@ function Affiliates() {
   return (
     <section className="bg-[#903636 ] bg-gray-100 py-[50px] border border-l-0 border-r-0">
       <div className="w-full lg:max-w-[1170px]  mx-auto px-[20px]">
-        <div className=" text-center text-[#d4a051] pb-[20px]">
-          <h3 className="text-[35px] font-bold uppercase">
-            Affiliation<span className="text-[#903636]"> With</span>
-          </h3>
-        </div>
+        <SectionHeader
+          headingPart1="Affiliation"
+          headingPart2="With"
+          className="pb-[20px]"
+        />
+
         {/* slider */}
         <div className="mx-auto">
           <Slider {...settings}>

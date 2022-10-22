@@ -64,7 +64,7 @@ const ChooseUs = () => {
   };
   return (
     <>
-      <section className="w-full py-[30px] pb-[120px] md:py-[100px] mb-[230px] sm:mb-[180px]">
+      <section className="w-full py-[30px] pb-[120px] md:py-[70px] mb-[230px] sm:mb-[180px]">
         <div className={`${styles.parallax} h-[350px] pt-[45px] relative  `}>
           <div
             className={`${styles2.inset_shadow_1} bg-[#00000080] w-full h-full absolute left-0 top-0 z-[1]`}

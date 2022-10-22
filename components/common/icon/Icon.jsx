@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosClock } from "react-icons/io";
-import { FiMenu } from "react-icons/fi";
+import { FiMenu, FiPhoneCall } from "react-icons/fi";
 import { BsYoutube, BsChevronRight } from "react-icons/bs";
 import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 
@@ -11,6 +11,7 @@ function Icon({
   twitter,
   youtube,
   chevronRight,
+  call,
   className,
 }) {
   return (
@@ -21,6 +22,7 @@ function Icon({
       {twitter && <FaTwitterSquare className={`${className}`} />}
       {youtube && <BsYoutube className={`${className}`} />}
       {chevronRight && <BsChevronRight className={`${className}`} />}
+      {call && <FiPhoneCall className={`${className}`} />}
     </>
   );
 }

@@ -5,6 +5,7 @@ import img1 from "../../../assets/images/incredible-places/1.jpg";
 import img2 from "../../../assets/images/incredible-places/2.jpg";
 import img3 from "../../../assets/images/incredible-places/3.jpg";
 import img4 from "../../../assets/images/incredible-places/4.jpg";
+import SectionHeader from "../../common/section-header/SectionHeader";
 const sliderData = [
   { id: "s1", sliderImage: img1 },
   { id: "s2", sliderImage: img2 },
@@ -51,17 +52,13 @@ const IncrediblePlaces = () => {
     ],
   };
   return (
-    <section className="py-[40px] md:py-[100px] px-[15px]">
+    <section className="py-[40px] md:py-[70px] px-[15px]">
       <div className="">
-        <div className=" text-center text-[#d4a051]">
-          <h3 className="text-[35px] font-bold uppercase">
-            Most<span className="text-[#903636]"> Incredible Places</span>
-          </h3>
-          <p className="text-[18px] text-[#333]">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonumm
-          </p>
-        </div>
+        <SectionHeader
+          headingPart1="Most"
+          headingPart2="Incredible Places"
+          subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
+        />
         {/* slider */}
         <div className="mt-[20px] md:mt-[50px]">
           <Slider {...settings}>

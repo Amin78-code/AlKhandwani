@@ -3,6 +3,7 @@ import Image from "next/image";
 import destination1 from "../../../assets/images/top-destinations/dest1.jpg";
 import destination2 from "../../../assets/images/top-destinations/dest2.jpg";
 import Slider from "react-slick";
+import SectionHeader from "../../common/section-header/SectionHeader";
 
 const TopDestinations = () => {
   const settings = {
@@ -14,24 +15,20 @@ const TopDestinations = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="w-full py-[30px] md:py-[100px] bg-gray-5 0">
+    <section className="w-full py-[30px] md:py-[70px] bg-gray-5 0">
       <div className="w-full lg:max-w-[1170px]  mx-auto px-[20px]">
-        <div className=" text-center text-[#d4a051]">
-          <h3 className="text-[35px] font-bold uppercase">
-            Top<span className="text-[#903636]"> Destinations</span>
-          </h3>
-          <p className="text-[18px] text-[#333]">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonumm
-          </p>
-        </div>
+        <SectionHeader
+          headingPart1="Top"
+          headingPart2="Destinations"
+          subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
+        />
         {/* slider */}
         <div>
           <Slider {...settings}>
             <div>
-              <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px]">
-                <div className="w-full  md:w-[570px ] lg:h-[572px ] h-ful l img-container">
-                  <Image src={destination1} alt="img" /> 
+              <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px] cursor-pointer">
+                <div className="w-full md:max-w-[500px] lg:max-h-[520px] img-container">
+                  <Image src={destination1} alt="img" />
                 </div>
                 <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[30px] mx-auto lg:px-[30px] ">
                   <h4 className="text-[26px] md:text-[35px] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px]">
@@ -65,8 +62,8 @@ const TopDestinations = () => {
             </div>
             <div>
               <div>
-                <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px]">
-                  <div className="w-full  md:w-[570px] lg:h-[572px]">
+                <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px] cursor-pointer">
+                  <div className="w-full md:max-w-[500px] lg:max-h-[520px] img-container">
                     <Image src={destination2} alt="img" />
                   </div>
                   <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px] pt-[10px] lg:pt-[77px] px-[10px] mx-auto lg:px-[30px] pb-10">
