@@ -84,21 +84,21 @@ const ServicesDescription = () => {
           <div className="flex justify-between border border-[#e2cbcb] bg-[white]">
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
               onClick={() => handleTourDetails("description")}
             >
               Description
             </button>
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
               onClick={() => handleTourDetails("registration")}
             >
               Registration
             </button>
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
               onClick={() => handleTourDetails("reviews")}
             >
               Reviews
