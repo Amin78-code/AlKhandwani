@@ -22,7 +22,7 @@ const reviwes = [
 
 const TourReviews = () => {
   return (
-    <div className="flex flex-col gap-y-[10px] pt-[10px] text-[15px] text-[#434e59]">
+    <div className="w-full flex flex-col gap-y-[10px] pt-[10px] text-[15px] text-[#434e59]">
       <h2 className="text-[21px] font-semibold mt-[20px] border-b border-[#e2cbcb] pb-[10px]">
         Reviews
       </h2>
@@ -32,9 +32,9 @@ const TourReviews = () => {
             <div className="w-[150px]">
               <Image src={review.image} alt="img" />
             </div>
-            <div className="w-[575px] flex flex-col gap-y-[10px]">
+            <div className="w-full md:w-[575px] flex flex-col gap-y-[10px]">
               <h1 className="text-[21px] font-emibold">{review.name}</h1>
-              <div className="flex justify-between">
+              <div className="flex flex-col md:flex-row gap-y-[10px] justify-between">
                 <span>Sr. Teacher</span>
                 <span className="flex items-center">
                   <AiFillStar className="text-[#903636]" />

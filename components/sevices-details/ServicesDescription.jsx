@@ -7,26 +7,41 @@ import TourRegistration from "./TourRegistration";
 import TourReviews from "./TourReviews";
 
 const ServicesDescription = () => {
-    const [tourDetails, setTourDetails] = useState({
-        isDescription:true,
-        isRegistration:false,
-        isReviews:false,
-    })
-    const handleTourDetails = (detail) => {
-        if(detail==="description") {
-            setTourDetails(prev=> ({...prev,isDescription:true,isReviews:false,isRegistration:false}))
-        }
-        if(detail==="registration") {
-            setTourDetails(prev=> ({...prev,isRegistration:true,isDescription:false,isReviews:false}))
-        }
-        if(detail==="reviews") {
-            setTourDetails(prev=> ({...prev,isReviews:true,isDescription:false,isRegistration:false}))
-        }
+  const [tourDetails, setTourDetails] = useState({
+    isDescription: true,
+    isRegistration: false,
+    isReviews: false,
+  });
+  const handleTourDetails = (detail) => {
+    if (detail === "description") {
+      setTourDetails((prev) => ({
+        ...prev,
+        isDescription: true,
+        isReviews: false,
+        isRegistration: false,
+      }));
     }
+    if (detail === "registration") {
+      setTourDetails((prev) => ({
+        ...prev,
+        isRegistration: true,
+        isDescription: false,
+        isReviews: false,
+      }));
+    }
+    if (detail === "reviews") {
+      setTourDetails((prev) => ({
+        ...prev,
+        isReviews: true,
+        isDescription: false,
+        isRegistration: false,
+      }));
+    }
+  };
   return (
-    <div className="flex flex-col gap-y-[20px] border  px-[20px] py-[30px]">
+    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border px-[15px]  mx-auto lg:mx-[unset] py-[30px] ">
       <h1 className="text-[32px] text-[#434e59]">HAJJ</h1>
-      <div className="flex gap-x-[10px]">
+      <div className="flex flex-col md:flex-row gap-y-[10px] gap-x-[10px]">
         <span>4 Days, 5 Nights</span>
         <span className="flex items-center">
           <AiFillStar className="text-[#903636]" />
@@ -37,7 +52,7 @@ const ServicesDescription = () => {
         </span>
         <span> (3 Reviews) Code: LMPROU $500 </span>
       </div>
-      <div className="w-[718px]">
+      <div className=" xl:w-[718px]">
         <Image src={packageImage} alt="packageImage" />
         <p className="text-[14px] text-[#626b72] mt-[30px] leading-2">
           The Hajj is a demonstration of the solidarity of the Muslim people and
@@ -66,32 +81,32 @@ const ServicesDescription = () => {
           also accompanied with him for the religious guidance.
         </p>
         <div className="mt-[30px]">
-          <div className="flex justify-around border border-[#e2cbcb] rounded-[12px] py-[6px]">
+          <div className="flex justify-between border border-[#e2cbcb] bg-[white]">
             <button
               type="button"
-              className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center"
-              onClick={() => handleTourDetails('description')}
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              onClick={() => handleTourDetails("description")}
             >
               Description
             </button>
             <button
               type="button"
-              className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center"
-              onClick={() => handleTourDetails('registration')}
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              onClick={() => handleTourDetails("registration")}
             >
               Registration
             </button>
             <button
               type="button"
-              className="text-white bg-gradient-to-r from-[#903636] to-[#d4a051] hover:bg-gradient-to-l focus:ring-2 focus:outline-none focus:ring-[#903636] dark:focus:ring-purple-800 rounded-lg text-sm px-7 py-2.5 text-center"
-            onClick={() => handleTourDetails('reviews')}
+              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-black  text-xs px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              onClick={() => handleTourDetails("reviews")}
             >
               Reviews
             </button>
           </div>
-          {tourDetails.isDescription && <TourDescription /> }
-          {tourDetails.isRegistration && <TourRegistration /> }
-          {tourDetails.isReviews && <TourReviews /> }
+          {tourDetails.isDescription && <TourDescription />}
+          {tourDetails.isRegistration && <TourRegistration />}
+          {tourDetails.isReviews && <TourReviews />}
         </div>
       </div>
     </div>
