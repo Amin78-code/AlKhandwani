@@ -13,7 +13,7 @@ function Affiliates() {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,[#333]
+    speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     arrows: false,
