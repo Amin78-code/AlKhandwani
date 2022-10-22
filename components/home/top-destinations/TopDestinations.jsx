@@ -29,7 +29,7 @@ const TopDestinations = () => {
         <div>
           <Slider {...settings}>
             <div>
-              <div className="flex flex-col md:flex-row gap-x-[30px ] mx-[2px] md:m-0 md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
+              <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px]">
                 <div className="w-full  md:w-[570px ] lg:h-[572px ] h-ful l img-container">
                   <Image src={destination1} alt="img" /> 
                 </div>
@@ -65,7 +65,7 @@ const TopDestinations = () => {
             </div>
             <div>
               <div>
-                <div className="flex flex-col md:flex-row gap-x-[30px] mx-[2px] md:m-0 md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
+                <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px]">
                   <div className="w-full  md:w-[570px] lg:h-[572px]">
                     <Image src={destination2} alt="img" />
                   </div>
