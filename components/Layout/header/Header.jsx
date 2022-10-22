@@ -5,8 +5,11 @@ import Logo from "../../../assets/images/logo/logo.png";
 import Icon from "../../common/icon/Icon";
 import { Fragment, useState } from "react";
 import Link from "next/link";
+import { Router, useRouter } from "next/router";
 
 function Header() {
+  const router = useRouter();
+  const slug = router.route;
   const [showMobMenu, setShowMobMenu] = useState(false);
   return (
     <Fragment>
@@ -28,57 +31,103 @@ function Header() {
             className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0 flex justify-between items-center"
           >
             <div className="logo">
-              <a href="#home">
-                <Image src={Logo} width={200} height={44} />
-              </a>
+              <Link href="/">
+                <a>
+                  <Image src={Logo} width={200} height={44} />
+                </a>
+              </Link>
             </div>
-            <ul className="hidden lg:flex justify-between items-center gap-x-[26px]">
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a href="#home" id="menu_home" className="menu-item active">
-                  HOME
+            <ul className="hidden lg:flex justify-between items-center gap-x-[24px]">
+              <Link href="/">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    HOME
+                  </li>
                 </a>
-              </li>
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a href="#about" id="menu_about" className="menu-item">
-                  ABOUT
-                </a>
-              </li>
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a
-                  href="#appointment"
-                  id="menu_appointment"
-                  className="menu-item"
-                >
-                  SERVICES
-                </a>
-              </li>
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a
-                  href="#departments"
-                  id="menu_departments"
-                  className="menu-item"
-                >
-                  HAJJ
-                </a>
-              </li>
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a href="#doctors" id="menu_doctors" className="menu-item">
-                  UMRAH
-                </a>
-              </li>
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <a href="#services" id="menu_services" className="menu-item">
-                  AIR TICKTING
-                </a>
-              </li>
+              </Link>
 
-              <li className="text-[12px] xl:text-[16px] font-[600]">
-                <Link href="/contact">
-                  <a id="menu_contact" className="menu-item">
+              <Link href="/about">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/about" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    ABOUT
+                  </li>
+                </a>
+              </Link>
+
+              <Link href="/service">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/service" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    SERVICES
+                  </li>
+                </a>
+              </Link>
+
+              <Link href="/services/hajj">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/services/hajj" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    HAJJ
+                  </li>
+                </a>
+              </Link>
+
+              <Link href="/services/umrah">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/services/umrah" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    UMRAH
+                  </li>
+                </a>
+              </Link>
+
+              <Link href="/air-tickting">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/air-tickting" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
+                    AIR TICKTING
+                  </li>
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a>
+                  <li
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                      slug == "/contact" &&
+                      "text-[#903636] bg-[#D4A051] py-1.5 px-2.5 rounded-[5px]"
+                    }`}
+                  >
                     CONTACT
-                  </a>
-                </Link>
-              </li>
+                  </li>
+                </a>
+              </Link>
               <li>
                 <button
                   type="button"
@@ -100,78 +149,98 @@ function Header() {
         </header>
       </div>
       {showMobMenu == true ? (
-        <div className="fixed w-full h-[100vh] bg-[#D4A051] z-[2]">
+        <div className="fixed w-full h-[100vh] bg-[#D4A051] z-[11]">
           <div className="logo p-5">
-            <a href="#home">
-              <Image src={Logo} width={200} height={44} />
-            </a>
+            <Link href="/"> 
+              <a>
+                <Image src={Logo} width={200} height={44} />
+              </a>
+            </Link>
           </div>
           <ul className=" h-full hidde n lg: flex justify-start items-center flex-col gap-y-[25px ] pt-[10%]">
-            <li className="w-full text-center">
-              <a
-                href="#home"
-                id="menu_home"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3 active"
-              >
-                HOME
+            <Link href="/">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  HOME
+                </li>
               </a>
-            </li>
-            <li className="w-full text-center">
-              <a
-                href="#about"
-                id="menu_about"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                ABOUT
-              </a>
-            </li>
-            <li className="w-full text-center">
-              <a
-                href="#appointment"
-                id="menu_appointment"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                SERVICES
-              </a>
-            </li>
-            <li className="w-full text-center">
-              <a
-                href="#departments"
-                id="menu_departments"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                HAJJ
-              </a>
-            </li>
-            <li className="w-full text-center">
-              <a
-                href="#doctors"
-                id="menu_doctors"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                UMRAH
-              </a>
-            </li>
-            <li className="w-full text-center">
-              <a
-                href="#services"
-                id="menu_services"
-                className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
-              >
-                AIR TICKTING
-              </a>
-            </li>
+            </Link>
 
-            <li className="w-full text-center">
-              <Link href="/contact">
-                <a
-                  id="menu_contact"
-                  className=" text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] py-3"
+            <Link href="/about">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/about" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  ABOUT
+                </li>
+              </a>
+            </Link>
+
+            <Link href="/service">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/service" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  SERVICES
+                </li>
+              </a>
+            </Link>
+
+            <Link href="/services/hajj">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/services/hajj" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  HAJJ
+                </li>
+              </a>
+            </Link>
+
+            <Link href="/services/umrah">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/services/umrah" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  UMRAH
+                </li>
+              </a>
+            </Link>
+
+            <Link href="/air-tickting">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/air-tickting" && "bg-[#903636] text-[#D4A051]"
+                  }`}
+                >
+                  AIR TICKTING
+                </li>
+              </a>
+            </Link>
+
+            <Link href="/contact">
+              <a className="w-full block text-center">
+                <li
+                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                    slug == "/contact" && "bg-[#903636] text-[#D4A051]"
+                  }`}
                 >
                   CONTACT
-                </a>
-              </Link>
-            </li>
+                </li>
+              </a>
+            </Link>
             <li>
               {/* <button
                 type="button"

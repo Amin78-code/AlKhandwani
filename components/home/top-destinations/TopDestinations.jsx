@@ -29,11 +29,11 @@ const TopDestinations = () => {
         <div>
           <Slider {...settings}>
             <div>
-              <div className="flex flex-col md:flex-row gap-x-[30px ] shadow-[0px_0px_10px_0px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
+              <div className="flex flex-col md:flex-row gap-x-[30px ] border md:border-[0] mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px]">
                 <div className="w-full  md:w-[570px ] lg:h-[572px ] h-ful l img-container">
                   <Image src={destination1} alt="img" /> 
                 </div>
-                <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[30px] mx-auto lg:px-[30px] ">
+                <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[20px] mx-auto lg:px-[30px] ">
                   <h4 className="text-[26px] md:text-[35px] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px]">
                     PARIS, <span className="text-[#903636] ">FRANCE</span>
                   </h4>
@@ -65,7 +65,7 @@ const TopDestinations = () => {
             </div>
             <div>
               <div>
-                <div className="flex flex-col md:flex-row gap-x-[30px] shadow-[0px_0px_10px_0px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
+                <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-[0] mx-[2px] md:m-0 md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
                   <div className="w-full  md:w-[570px] lg:h-[572px]">
                     <Image src={destination2} alt="img" />
                   </div>
