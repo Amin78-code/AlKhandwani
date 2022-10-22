@@ -68,14 +68,11 @@ function Affiliates() {
           headingPart2="With"
           className="pb-[20px]"
         />
-
-        {/* slider */}
         <div className="mx-auto">
           <Slider {...settings}>
             <div>
               <Image src={Company1} alt="img" />
             </div>
-
             <div>
               <Image src={Company2} alt="img" />
             </div>
@@ -93,9 +90,6 @@ function Affiliates() {
             </div>
           </Slider>
         </div>
-
-        {/* 903636 */}
-        {/* d4a051 */}
       </div>
     </section>
   );

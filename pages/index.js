@@ -4,7 +4,7 @@ import Head from "next/head";
 const index = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -23,7 +23,7 @@ const index = () => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-      </Head>
+      </Head> */}
       <div>
         <HomePage />
       </div>

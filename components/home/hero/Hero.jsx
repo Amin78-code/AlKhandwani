@@ -11,9 +11,9 @@ function Hero() {
       </div>
       {/* overlay */}
       <div
-        className={`${styles.inset_shadow_1} bg-[#9e6a206f] w-full h-full absolute left-0 top-0 z-[-1]`}
+        className={`$ {styles.inset_shadow_1} bg-[#441f0d9f] w-full h-full absolute left-0 top-0 z-[-1]`}
       ></div>
-      <div className="max-w-[840px] px-[20px] md:px-0 text-center text-white mt-[20px]">
+      <div className="max-w-[840px] px-[20px] bg-[#44 1f0d9f] md:px-0 text-center text-white mt-[20px]">
         <h1 className="text-[40px] sm:text-[60px] md:text-[70px] leading-[40px] sm:leading-[60px] md:leading-[70px] font-[700]">
           Your Best <span className="text-[#d4a051]">Tour Choice</span>
         </h1>
