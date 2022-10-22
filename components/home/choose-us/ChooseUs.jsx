@@ -72,7 +72,7 @@ const ChooseUs = () => {
           <div className="w-full max-w-[1170px] mx-auto px-[20px]  text-center  relative z-[3]">
             <div className="text-white">
               <h3 className="text-[35px] font-bold ">
-                WHY CHOOSE <span className="text-[#d4a051]">TOURIST</span>
+                WHY CHOOSE <span className="text-[#d4a051]">ALKHANDWANI </span>
               </h3>
               <p className="text-[20px]">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
