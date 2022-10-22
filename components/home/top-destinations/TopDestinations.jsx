@@ -65,46 +65,39 @@ const TopDestinations = () => {
             </div>
             <div>
               <div>
-                <div className="flex flex-col md:flex-row gap-x-[30px] shadow-[0px_0px_10px_0px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
-                  <div className="w-full  md:w-[570px] lg:h-[572px]">
-                    <Image src={destination2} alt="img" />
-                  </div>
-                  <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px] pt-[10px] lg:pt-[77px] px-[10px] mx-auto lg:px-[30px] pb-10">
-                    <div>
-                      <span className="text-[22px] md:text-[35px] lg:text-[50px]">
-                        {" "}
-                        VENICE
-                      </span>
-                      ,
-                      <span className="text-[#903636] text-[22px] md:text-[35px] lg:text-[50px]">
-                        {" "}
-                        ITALY
-                      </span>
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim on veniam, quis nostrud
-                      exercitation ullamco laboris nisi ut aliquip extra one
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod commodo consequat awesome dolore porem.
-                    </p>
-                    <div className="flex gap-x-[30px]">
-                      <button
-                        type="button"
-                        className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-black hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
-                      >
-                        More Details
-                      </button>
-                      <button
-                        type="button"
-                        className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-black hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
-                      >
-                        Book Now
-                      </button>
-                    </div>
+              <div className="flex flex-col md:flex-row gap-x-[30px ] shadow-[0px_0px_10px_0px_rgb(209,209,209,0.35)] mt-[50px] rounded-[10px] overflow-hidden mx-0 md:mx-[30px] mb-[30px]">
+                <div className="w-full  md:w-[570px ] lg:h-[572px ] h-ful l img-container">
+                  <Image src={destination2} alt="img" /> 
+                </div>
+                <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[30px] mx-auto lg:px-[30px] ">
+                  <h4 className="text-[26px] md:text-[35px] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px]">
+                    VENICE, <span className="text-[#903636] ">ITALY</span>
+                  </h4>
+
+                  <p className="mt-[-10px]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim on veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip extra one Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod commodo consequat awesome dolore porem.
+                  </p>
+                  <div className="flex gap-x-[30px]">
+                    <button
+                      type="button"
+                      className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-black hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                    >
+                      More Details
+                    </button>
+                    <button
+                      type="button"
+                      className="hidden md:block text-white border border-transparent bg-[#903636] hover:bg-white hover:text-black hover:border hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+                    >
+                      Book Now
+                    </button>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </Slider>

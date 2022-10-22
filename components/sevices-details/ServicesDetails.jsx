@@ -22,7 +22,7 @@ const ServicesDetails = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-[50px] gap-x-[10px] ">
+      <div className="flex flex-col lg:flex-row justify-center mt-[50px] gap-x-[10px] gap-y-[40px] px-[20px] ">
         <ServicesDescription />
         <ServicesForm />
       </div>

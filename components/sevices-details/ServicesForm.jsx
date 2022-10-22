@@ -2,25 +2,25 @@ import React from "react";
 
 const ServicesForm = () => {
   return (
-    <div className="flex flex-col text-[#434e59]">
-      <h1 className="text-[26px] p-[10px] border text-center">ENQUIRE NOW</h1>
+    <div className="w-full xl:w-[300px] flex flex-col text-[#434e59]">
+      <h1 className="text-[20px] xl:text-[26px] p-[7px] xl:p-[10px] border text-center">ENQUIRE NOW</h1>
       <div className="p-[10px] border ">
         <form>
-          <div className="flex flex-col gap-y-[10px] w-[300px]">
+          <div className="flex flex-col gap-y-[10px] ">
             <input
               type="text"
               placeholder="Name"
-              className="w-full p-[10px] border outline-none"
+              className=" p-[10px] border outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full p-[10px] border outline-none"
+              className=" p-[10px] border outline-none"
             />
             <input
               type="number"
               placeholder="Phone Number"
-              className="w-full p-[10px] border outline-none"
+              className=" p-[10px] border outline-none"
             />
             <textarea
               cols="30"

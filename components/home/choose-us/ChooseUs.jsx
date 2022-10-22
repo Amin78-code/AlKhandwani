@@ -86,7 +86,7 @@ const ChooseUs = () => {
                 {data.map((data) => {
                   return (
                     <div key={data.title}>
-                      <div className="w-full sm:w-[300px] md:w-[360px] lg:w-[300px] xl:w-[360px] h-[379px] mx-auto flex justify-center flex-col gap-y-[20px] mb-[20px] items-center  border hover:border-transparent hover:bg-[#d4a051] hover:text-white  bg-white p-10 group  ">
+                      <div className="w-full sm:w-[300px] md:w-[360px] lg:w-[300px] xl:w-[360px] h-[379px] mx-auto flex justify-center flex-col gap-y-[20px] mb-[20px] items-center  border hover:border-transparent hover:bg-[#d4a051] hover:text-white  bg-white p-10 group cursor-pointer  ">
                         <i
                           className={`fa ${data.icon} text-[35px] text-[#d4a051] border-[2px] border-[#d4a051] group-hover:text-white group-hover:border-[#FFF] rounded-full p-5`}
                         ></i>

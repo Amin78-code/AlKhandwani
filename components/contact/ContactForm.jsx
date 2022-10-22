@@ -2,24 +2,24 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col text-[#434e59]">
+    <div className="flex flex-col text-[#434e59] w-full  lg:w-[755px]">
       <div className="p-[10px]  ">
         <form>
           <div className="flex flex-col gap-y-[20px]">
             <input
               type="text"
               placeholder="Name"
-              className="p-[15px] border w-[500px] outline-none"
+              className="p-[15px] border  outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className="p-[15px] border w-[500px] outline-none"
+              className="p-[15px] border  outline-none"
             />
             <input
               type="number"
               placeholder="Phone Number"
-              className="p-[15px] border w-[500px] outline-none"
+              className="p-[15px] border  outline-none"
             />
             <textarea
               cols="30"

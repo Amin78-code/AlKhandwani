@@ -7,11 +7,11 @@ import { MdEmail } from "react-icons/md";
 
 const ContactDetails = () => {
   return (
-    <div className=" text-[#434e59] w-[575px]">
-      <h2 className="text-[25px] font-semibold text-left">Contact Details</h2>
+    <div className=" text-[#434e59] w-full lg:w-[500px] px-[20px] pt-[10px]">
+      <h2 className="text-[25px] font-semibold text-center lg:text-left">Contact Details</h2>
       <div className="flex flex-col gap-y-[35px] pt-[18px]">
-        <div className="flex gap-x-[15px] items-center">
-          <div className="p-3 border bg-[#d4a051] text-white rounded-md mb-[30px]">
+        <div className="flex  gap-x-[15px] items-center">
+          <div className="p-3 border bg-[#d4a051] text-white rounded-md ">
             <ImLocation className="text-[35px]" />
           </div>
           <div>
