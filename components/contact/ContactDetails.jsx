@@ -10,7 +10,7 @@ const ContactDetails = () => {
     <div className=" text-[#434e59] w-full lg:w-[500px] px-[20px] pt-[10px]">
       <h2 className="text-[25px] font-semibold text-center lg:text-left">Contact Details</h2>
       <div className="flex flex-col gap-y-[35px] pt-[18px]">
-        <div className="flex  gap-x-[15px] items-center">
+        <div className="flex  gap-x-[15px] items-start">
           <div className="p-3 border bg-[#d4a051] text-white rounded-md ">
             <ImLocation className="text-[35px]" />
           </div>
