@@ -61,7 +61,7 @@ function Service() {
         headingPart2="We provide"
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
       />
-      <ChooseUs />
+      <ChooseUs py="py-[20px] md:pt-[40px] md:pb-[140px]" />
     </Layout>
   );
 }

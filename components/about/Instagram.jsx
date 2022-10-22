@@ -17,7 +17,9 @@ export default function Instagram() {
         />
         <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
           <div className="relative group cursor-pointer">
-            <Image src={img1} alt="img" className="img-container" />
+            <div className="img-container h-full">
+              <Image src={img1} alt="img" />
+            </div>
             <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
             <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <svg
@@ -52,7 +54,9 @@ export default function Instagram() {
             </div>
           </div>
           <div className="relative group cursor-pointer">
-            <Image src={img2} alt="img" className="img-container" />
+            <div className="img-container h-full">
+              <Image src={img2} alt="img" />
+            </div>
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
             <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <svg
@@ -87,7 +91,9 @@ export default function Instagram() {
             </div>
           </div>
           <div className="relative group cursor-pointer">
-            <Image src={img3} alt="img" className="img-container" />
+            <div className="img-container h-full">
+              <Image src={img3} alt="img" />
+            </div>
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
             <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <svg
@@ -122,7 +128,9 @@ export default function Instagram() {
             </div>
           </div>
           <div className="relative group cursor-pointer">
-            <Image src={img4} alt="img" className="img-container" />
+            <div className="img-container h-full">
+              <Image src={img4} alt="img" />
+            </div>
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
             <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <svg

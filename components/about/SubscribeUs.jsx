@@ -4,7 +4,7 @@ import styles2 from "../../styles/Hero.module.css";
 
 const SubscribeUs = () => {
   return (
-    <section className="w-full py-[30px] pb-[120px] md:py-[70px]">
+    <section className="w-full py-[30px ] pb-[12 0px] md:py-[70px ]">
       <div className={`${styles.parallax} h-[350px] pt-[45px] relative  `}>
         <div
           className={`${styles2.inset_shadow_1} bg-[#00000080] w-full h-full absolute left-0 top-0 z-[1]`}
