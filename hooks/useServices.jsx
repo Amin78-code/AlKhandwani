@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Router, useRouter } from "next/router";
 import packageImage from "../assets/images/services/package2015.jpg";
 import Masjid_al_Haram from "../assets/images/Masjid-ul-Haram-1.jpg";
 import Madina from "../assets/images/madina.jpg";
