@@ -121,20 +121,18 @@ function Header() {
                   </li>
                 </a>
               </Link>
-
-              <Link href="/air-tickting">
+              <Link href="/airticketing">
                 <a>
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
-                      slug == "/air-tickting" &&
+                      slug == "/airticketing" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
-                    AIR TICKTING
+                    Air Ticketing
                   </li>
                 </a>
               </Link>
-
               <Link href="/contact">
                 <a>
                   <li
@@ -242,14 +240,14 @@ function Header() {
               </a>
             </Link>
 
-            <Link href="/air-tickting">
+            <Link href="/airticketing">
               <a className="w-full block text-center">
                 <li
                   className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
-                    slug == "/air-tickting" && "bg-[#903636] text-[#D4A051]"
+                    slug == "/airticketing" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
-                  AIR TICKTING
+                  Air Ticketing
                 </li>
               </a>
             </Link>

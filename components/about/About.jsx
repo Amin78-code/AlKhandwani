@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutImg from "../../assets/images/pexels-abdulaziz-asiri-12052403.jpg";
+import aboutImg from "../../assets/images/abdulaziz-asiri.jpg";
 
 const About = () => {
   return (

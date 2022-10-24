@@ -40,7 +40,9 @@ const ServicesDescription = ({ serviceDetails }) => {
   };
   return (
     <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border px-[15px]  mx-auto lg:mx-[unset] py-[30px] ">
-      <h1 className="text-[32px] text-[#434e59] leading-[36px]">{serviceDetails.title}</h1>
+      <h1 className="text-[32px] text-[#434e59] leading-[36px] capitalize">
+        {serviceDetails.title}
+      </h1>
       <div className="flex flex-col md:flex-row gap-y-[10px] gap-x-[20px]">
         <span>{serviceDetails.duration}</span>
         <span className="flex gap-x-[5px]">
@@ -50,7 +52,7 @@ const ServicesDescription = ({ serviceDetails }) => {
           <span>({serviceDetails.review} Reviews)</span>
         </span>
         <span>Code: {serviceDetails.code}</span>
-        <span>{serviceDetails.price} </span>
+        <span>Rs. {serviceDetails.price}</span>
       </div>
       <div className=" xl:w-[718px]">
         <Image src={serviceDetails.img} alt="packageImage" />
@@ -89,7 +91,7 @@ const ServicesDescription = ({ serviceDetails }) => {
     </div>
   );
 };
-let App = ({stars}) => {
+let App = ({ stars }) => {
   return (
     <>
       {Array.from(Array(stars), (e, i) => {

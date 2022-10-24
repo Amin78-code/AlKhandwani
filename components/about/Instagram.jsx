@@ -8,7 +8,7 @@ import SectionHeader from "../common/section-header/SectionHeader";
 
 export default function Instagram() {
   return (
-    <section className="w-full py-[30px] md:py-[70px] ">
+    <section className="w-full pt-[30px] pb-[20px] md:pt-[70px] md:pb-[20px] ">
       <div className="w-full  mx-auto px-[20px]">
         <SectionHeader
           headingPart1="FOLLOW US "

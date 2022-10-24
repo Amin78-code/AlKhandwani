@@ -43,7 +43,9 @@ const Footer = () => (
     <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
       <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-[80px] pb-6 lg:pb-[80px]">
         <div className="lg:w-[32%] pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
-          <Image src={Logo} width={340} height={80} />
+          <Link href="/">
+            <Image src={Logo} width={340} height={80} />
+          </Link>
           <p className="mb-4 mt-10">
             <strong>Email:</strong>
             <a href="mailto:abc@email.com"> abc@email.com</a>
@@ -98,37 +100,37 @@ const Footer = () => (
               <h3 className="mb-6 text-lg   font-bold">Links</h3>
               <ul className=" ">
                 <li className="mb-3">
-                  <Link href="home">
+                  <Link href="/">
                     <a className="trans3 hover:text-white">Home</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
+                  <Link href="/about">
                     <a className="trans3 hover:text-white">About</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
+                  <Link href="/services">
                     <a className="trans3 hover:text-white">Services</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
+                  <Link href="/service/hajj">
                     <a className="trans3 hover:text-white">Hajj</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
+                  <Link href="/service/umrah">
                     <a className="trans3 hover:text-white">Umrah</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
-                    <a className="trans3 hover:text-white">Air Tickting</a>
+                  <Link href="/air-ticketing">
+                    <a className="trans3 hover:text-white">Air Ticketing</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="">
+                  <Link href="/contact">
                     <a className="trans3 hover:text-white">Contact</a>
                   </Link>
                 </li>

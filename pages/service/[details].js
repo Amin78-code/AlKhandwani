@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout/Layout";
 import ServicesDetails from "../../components/sevices-details/ServicesDetails";
-import packageImage from "../../assets/images/services/package2015.jpg";
-import { Router, useRouter } from "next/router";
-import UseServices from "../../hooks/useServices";
+import UseServiceDetails from "../../hooks/UseServiceDetails";
 
 const Details = () => {
-  const serviceDetails = UseServices();
-  const router = useRouter();
-  const slug = router.query.details;
+  const serviceDetails = UseServiceDetails();
   return (
     <Layout>
       <ServicesDetails serviceDetails={serviceDetails} />
