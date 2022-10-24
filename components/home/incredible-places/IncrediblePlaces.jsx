@@ -24,7 +24,7 @@ const IncrediblePlaces = () => {
     slidesToScroll: 4,
     autoplay: true,
     arrows: false,
-    dots: true,
+    // dots: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -32,7 +32,7 @@ const IncrediblePlaces = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          // dots: true,
         },
       },
       {
@@ -52,7 +52,7 @@ const IncrediblePlaces = () => {
     ],
   };
   return (
-    <section className="py-[40px] md:py-[70px] px-[15px]">
+    <section className="pt-[40px] md:pt-[70px] px-[15px]">
       <div className="">
         <SectionHeader
           headingPart1="Most"
@@ -64,7 +64,7 @@ const IncrediblePlaces = () => {
           <Slider {...settings}>
             {sliderData.map((data) => {
               return (
-                <div key={data.id} className="mb-[20px] px-[5px]">
+                <div key={data.id} className="mb-[12px] px-[5px]">
                   <Image src={data.sliderImage} alt="img" />
                 </div>
               );

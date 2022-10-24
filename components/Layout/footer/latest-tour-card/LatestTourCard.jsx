@@ -5,7 +5,7 @@ import Icon from "../../../common/icon/Icon";
 function LatestTourCard({ tour, index }) {
   return (
     <div
-      className={`text-[#903636] flex justify-start gap-x-2 bg-[#e7b262 ] bg-[#fff] rounded-[10px] ${
+      className={`text-[#903636] flex justify-start gap-x-2 bg-[#e7b262 ] bg-[#fff] rounded-[10px] cursor-pointer ${
         index !== 2 && "  "
       }`}
     >

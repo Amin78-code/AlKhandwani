@@ -5,6 +5,7 @@ import kashmir from "../../../assets/images/latest-tour/kashmir.jpg";
 import muree from "../../../assets/images/latest-tour/muree.jpg";
 import LatestTourCard from "./latest-tour-card/LatestTourCard";
 import Icon from "../../common/icon/Icon";
+import Link from "next/link";
 
 const latestTours = [
   {
@@ -43,27 +44,50 @@ const Footer = () => (
       <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-[80px] pb-6 lg:pb-[80px]">
         <div className="lg:w-1/4 pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
           <Image src={Logo} width={340} height={80} />
-          <p className="text-[18px] leading-[20px] mt-[20px] mb-4">
-            4140 Parker Rd. Allentown, New Mexico 31134
+          <p className="mb-4 mt-10">
+            <strong>Email:</strong>
+            <a href="mailto:abc@email.com">abc@email.com</a>
           </p>
-          <p className="mb-4">Email: abc@email.com</p>
           <p className="mb-4">
-            Telephone: <a href="tel:000-000-000">000-000-000</a>
+            <strong>Telephone:</strong>
+            <a href="tel:000-000-000">000-000-000</a>
           </p>
-          <div className="flex lg:justify-left items-left mt-12 lg:mt-5">
+          <p className="text-[18px] leading-[26px] mt-[20px] mb-4">
+            <strong>Address:</strong> 4140 Parker Rd. Allentown, New Mexico
+            31134
+          </p>
+          <div className="flex lg:justify-left items-left mt-12 lg:mt-10">
             <a href="#">
-              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
-                <Icon facebook className={"text-[20px] text-[#1877F2]"} />
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5 flex flex-wrap gap-x-2 items-center capitalize text-[12px] group">
+                <Icon
+                  facebook
+                  className={
+                    "text-[20px] text-[#1877F2] trans3 group-hover:scale-[1.6]"
+                  }
+                />
+                facebook
               </div>
             </a>
             <a href="#">
-              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
-                <Icon twitter className={"text-[20px] text-[#1D9BF0]"} />
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5 flex flex-wrap gap-x-2 items-center capitalize text-[12px] group">
+                <Icon
+                  twitter
+                  className={
+                    "text-[20px] text-[#1D9BF0] trans3 group-hover:scale-[1.6]"
+                  }
+                />
+                twitter
               </div>
             </a>
             <a href="#">
-              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5">
-                <Icon youtube className={"text-[20px] text-[#FF0000]"} />
+              <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5 flex flex-wrap gap-x-2 items-center capitalize text-[12px] group">
+                <Icon
+                  youtube
+                  className={
+                    "text-[20px] text-[#FF0000] trans3 group-hover:scale-[1.6]"
+                  }
+                />
+                youtube
               </div>
             </a>
           </div>
@@ -74,25 +98,39 @@ const Footer = () => (
               <h3 className="mb-6 text-lg   font-bold">Links</h3>
               <ul className=" ">
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Home</a>
+                  <Link href="home">
+                    <a>Home</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">About</a>
+                  <Link href="">
+                    <a>About</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Services</a>
+                  <Link href="">
+                    <a>Services</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Hajj</a>
+                  <Link href="">
+                    <a>Hajj</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Umrah</a>
+                  <Link href="">
+                    <a>Umrah</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Air Tickting</a>
+                  <Link href="">
+                    <a>Air Tickting</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Contact</a>
+                  <Link href="">
+                    <a>Contact</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -100,16 +138,24 @@ const Footer = () => (
               <h3 className="mb-6 text-lg   font-bold">Services</h3>
               <ul className=" ">
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Products</a>
+                  <Link href="">
+                    <a>Products</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Claims</a>
+                  <Link href="">
+                    <a>Claims</a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="javascript:void(0)">Renewals</a>
+                  <Link href="">
+                    <a>Renewals</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Support</a>
+                  <Link href="">
+                    <a>Support</a>
+                  </Link>
                 </li>
               </ul>
             </div>
