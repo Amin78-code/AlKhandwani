@@ -60,32 +60,34 @@ const ServicesDescription = ({ serviceDetails }) => {
           {serviceDetails?.detail_text}
         </p>
         <div className="mt-[30px]">
-          <div className="flex justify-between border border-[#e2cbcb] bg-[white]">
+          <div className="flex  sm:justify-start sm:gap-x-[10px] lg:justify-between border border-[#e2cbcb]  bg-[#d4a051]">
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-[#333]  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className={`text-white trans3  group-hover:bg-white group-hover:text-[#333] w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] md:px-[83px] lg:px-[75px] py-[15px] text-center hover:bg-[#d4a051] active:bg-[#d4a051]  ${
+                tourDetails.isDescription == true ? "bg-[#d4a051]" : "bg-[#903636]"
+              }`}
               onClick={() => handleTourDetails("description")}
             >
               Description
             </button>
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-[#333]  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className="text-white trans3 bg-[#903636] group-hover:bg-white group-hover:text-[#333] w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] md:px-[83px] lg:px-[75px] py-[15px] text-center hover:bg-[#d4a051] active:bg-[#d4a051] focus:bg-[#d4a051]"
               onClick={() => handleTourDetails("registration")}
             >
               Registration
             </button>
             <button
               type="button"
-              className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-[#333]  text-xs lg:text-md px-[12px] sm:px-[60px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] active:bg-[#903636] focus:bg-[#903636]"
+              className="text-white trans3 bg-[#903636] group-hover:bg-white group-hover:text-[#333] w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] lg:px-[75px] py-[15px] text-center hover:bg-[#d4a051] active:bg-[#d4a051] focus:bg-[#d4a051]"
               onClick={() => handleTourDetails("reviews")}
             >
               Reviews
             </button>
           </div>
-          {tourDetails.isDescription && <TourDescription />}
-          {tourDetails.isRegistration && <TourRegistration />}
-          {tourDetails.isReviews && <TourReviews />}
+          {tourDetails.isDescription && <TourDescription serviceDetails={serviceDetails} />}
+          {tourDetails.isRegistration && <TourRegistration serviceDetails={serviceDetails} />}
+          {tourDetails.isReviews && <TourReviews serviceDetails={serviceDetails} />}
         </div>
       </div>
     </div>

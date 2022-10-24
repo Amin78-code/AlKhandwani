@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../../../styles/Choose.module.css";
 import styles2 from "../../../styles/Hero.module.css";
 import Slider from "react-slick";
+import ChooseUsCard from "./ChooseUsCard";
 
 const data = [
   {
@@ -35,7 +36,7 @@ const data = [
   },
 ];
 
-const ChooseUs = ({py}) => {
+const ChooseUs = ({ py }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -45,7 +46,7 @@ const ChooseUs = ({py}) => {
     slidesToScroll: 2,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1023,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -64,7 +65,11 @@ const ChooseUs = ({py}) => {
   };
   return (
     <>
-      <section className={`w-full  pb-[120px] mb-[230px] sm:mb-[180px] ${py? py : "py-[30px] md:py-[70px] "}`}>
+      <section
+        className={`w-full  pb-[150px] sm:pb-[120px] mb-[230px] sm:mb-[180px] ${
+          py ? py : "py-[30px] md:py-[70px] "
+        }`}
+      >
         <div className={`${styles.parallax} h-[350px] pt-[45px] relative  `}>
           <div
             className={`${styles2.inset_shadow_1} bg-[#00000080] w-full h-full absolute left-0 top-0 z-[1]`}
@@ -84,25 +89,7 @@ const ChooseUs = ({py}) => {
             <div className="relative z-[3] pt-[50px]  ">
               <Slider {...settings}>
                 {data.map((data) => {
-                  return (
-                    <div key={data.title}>
-                      <div className="w-full sm:w-[300px] md:w-[360px] lg:w-[300px] xl:w-[360px] h-[379px] mx-auto flex justify-center flex-col gap-y-[20px] mb-[20px] items-center border hover:border-transparent trans3 hover:bg-[#d4a051] hover:text-white  bg-white p-10 group cursor-pointer  ">
-                        <i
-                          className={`fa ${data.icon} text-[35px] text-[#d4a051] border-[2px] border-[#d4a051] trans3 group-hover:text-white group-hover:border-[#FFF] rounded-full p-5`}
-                        ></i>
-                        <h3 className="text-[21px] sm:text-[16px] lg:text-[21px] font-semibold">
-                          {data.title}
-                        </h3>
-                        <p>{data.content}</p>
-                        <button
-                          type="button"
-                          className="text-white bg-[#d4a051] group-hover:bg-white group-hover:text-[#333] rounded-lg text-sm px-7 py-2.5 text-center  "
-                        >
-                          Read More
-                        </button>
-                      </div>
-                    </div>
-                  );
+                  return <ChooseUsCard data={data} key={data.id} />;
                 })}
               </Slider>
             </div>

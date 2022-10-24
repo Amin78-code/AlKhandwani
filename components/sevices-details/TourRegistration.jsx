@@ -1,6 +1,6 @@
 import React from "react";
 
-const TourRegistration = () => {
+const TourRegistration = ({serviceDetails}) => {
   return (
     <div className="flex flex-col gap-y-[10px] pt-[10px] text-[18px] text-[#434e59]">
       <h2 className="text-[21px] font-semibold mt-[20px] border-b border-[#e2cbcb] pb-[10px]">
@@ -8,7 +8,7 @@ const TourRegistration = () => {
       </h2>
       <span className="font-semibold">Pre Regitration Started</span>
       <p>Sindh Government has announced the Provisional Quota for Pakistan.</p>
-      <span className="font-semibold">Get Ready for Hajj 2022</span>
+      <span className="font-semibold">{serviceDetails?.registration}</span>
       <h3>Keep the Following Doucment Handly</h3>
       <h2 className="font-semibold">Docements Required:</h2>
       <ul className="flex flex-col gap-y-[5px] pt-[10px] list-disc pl-[17px]">

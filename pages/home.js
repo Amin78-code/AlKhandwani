@@ -51,7 +51,7 @@ const Home = () => {
         headingPart2="Packages"
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
       />
-      <TopDestinations />
+      <TopDestinations services={services}  />
       <ChooseUs />
       <CTA />
       <Testimonial />

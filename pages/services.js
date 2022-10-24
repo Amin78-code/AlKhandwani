@@ -72,6 +72,7 @@ import useCompanyServices from "../hooks/useCompanyServices";
 
 function Services() {
   const services = useCompanyServices();
+  console.log(services)
   return (
     <Layout>
       <Hero page="service" />

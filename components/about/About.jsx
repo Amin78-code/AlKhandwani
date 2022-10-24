@@ -5,7 +5,7 @@ import aboutImg from "../../assets/images/abdulaziz-asiri.jpg";
 const About = () => {
   return (
     <section className="w-full py-[30px] md:py-[70px] ">
-      <div className="flex justify-center items-canter gap-x-[50px] w-full lg:max-w-[1440px]  mx-auto px-[20px]">
+      <div className="flex flex-col lg:flex-row justify-center items-canter gap-x-[50px] w-full lg:max-w-[1440px]  mx-auto px-[20px]">
         <div className="w-full h-[480px] img-container">
           <Image src={aboutImg} alt="img" />
         </div>
@@ -28,7 +28,7 @@ const About = () => {
           <div className="flex gap-x-[30px]">
             <button
               type="button"
-              className="text-white border border-transparent bg-[#d4a051] trans3 hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+              className="text-white border border-transparent bg-[#d4a051] trans3 hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[15px] sm:text-[18px] md:text-[15px] lg:text-[18px] px-3 sm:px-7 py-2.5 text-center  "
             >
               Book Your Destination
             </button>

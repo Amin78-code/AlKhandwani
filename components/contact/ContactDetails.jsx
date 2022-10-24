@@ -4,6 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoIosContact } from "react-icons/io";
 import { FaFax } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
 
 const ContactDetails = () => {
   return (
@@ -16,9 +17,12 @@ const ContactDetails = () => {
           </div>
           <div>
             <h3 className="text-[21px] font-semibold">ADDRESS</h3>
-            <p> Muhammad Ali Society Center,</p>
-            <p>Near Standard Chartered Bank,</p>
-            <p>Muhammad Ali Cooperative Housing Society, Karachi,Pakistan.</p>
+            <Link href={""}>
+            <a>
+            <p className="hover:underline"> Muhammad Ali Society Center,</p>
+            <p className="hover:underline">Near Standard Chartered Bank,</p>
+            <p className="hover:underline">Muhammad Ali Cooperative Housing Society, Karachi,Pakistan.</p>
+            </a></Link>
           </div>
         </div>
         <div className="flex gap-x-[15px] items-center">
@@ -27,7 +31,7 @@ const ContactDetails = () => {
           </div>
           <div>
             <h3 className="text-[21px] font-semibold">CALL US</h3>
-            <span>+92 300-8248285</span>
+            <span className="hover:underline"><Link href="tel:Number"><a>+92 300-8248285</a></Link></span>
           </div>
         </div>
         <div className="flex gap-x-[15px] items-center">
@@ -36,7 +40,7 @@ const ContactDetails = () => {
           </div>
           <div>
             <h3 className="text-[21px] font-semibold">TELEPHONE</h3>
-            <span>+9221-34168186 +9221-35449238</span>
+            <span className="hover:underline"><Link href="tel:Number"><a>+9221-34168186</a></Link></span> <span className="hover:underline"> <Link href="tel:Number"><a>+9221-35449238</a></Link></span>
           </div>
         </div>
         <div className="flex gap-x-[15px] items-center">
@@ -45,7 +49,7 @@ const ContactDetails = () => {
           </div>
           <div>
             <h3 className="text-[21px] font-semibold">FAX</h3>
-            <span>+9221-34168186</span>
+            <span className="hover:underline"><Link href="tel:Number"><a>+9221-34168186</a></Link></span>
           </div>
         </div>
         <div className="flex gap-x-[15px] items-center">
@@ -54,7 +58,8 @@ const ContactDetails = () => {
           </div>
           <div>
             <h3 className="text-[21px] font-semibold">EMAIL</h3>
-            <span className="hover:underline"><a href="">alkhandwani90@hotmail.com</a></span>
+            <span className="hover:underline"><Link  href = "mailto:alkhandwani90@hotmail.com"><a>alkhandwani90@hotmail.com</a></Link></span>
+
           </div>
         </div>
       </div>
