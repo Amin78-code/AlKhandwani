@@ -21,26 +21,25 @@ function Header() {
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap"
             rel="stylesheet"
           />
-          
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          charset="UTF-8"
-          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-        />
-      
+
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
         </Head>
         <header
           id="header"
@@ -84,11 +83,11 @@ function Header() {
                 </a>
               </Link>
 
-              <Link href="/service">
+              <Link href="/services">
                 <a>
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
-                      slug == "/service" &&
+                      slug == "/services" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
@@ -97,11 +96,11 @@ function Header() {
                 </a>
               </Link>
 
-              <Link href="/services/hajj">
+              <Link href="/service/hajj">
                 <a>
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
-                      slug == "/services/hajj" &&
+                      slug == "/service/hajj" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
@@ -110,11 +109,11 @@ function Header() {
                 </a>
               </Link>
 
-              <Link href="/services/umrah">
+              <Link href="/service/umrah">
                 <a>
                   <li
                     className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
-                      slug == "/services/umrah" &&
+                      slug == "/service/umrah" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
                   >
@@ -207,11 +206,11 @@ function Header() {
               </a>
             </Link>
 
-            <Link href="/service">
+            <Link href="/services">
               <a className="w-full block text-center">
                 <li
                   className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
-                    slug == "/service" && "bg-[#903636] text-[#D4A051]"
+                    slug == "/services" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
                   SERVICES
@@ -219,11 +218,11 @@ function Header() {
               </a>
             </Link>
 
-            <Link href="/services/hajj">
+            <Link href="/service/hajj">
               <a className="w-full block text-center">
                 <li
                   className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
-                    slug == "/services/hajj" && "bg-[#903636] text-[#D4A051]"
+                    slug == "/service/hajj" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
                   HAJJ
@@ -231,11 +230,11 @@ function Header() {
               </a>
             </Link>
 
-            <Link href="/services/umrah">
+            <Link href="/service/umrah">
               <a className="w-full block text-center">
                 <li
                   className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
-                    slug == "/services/umrah" && "bg-[#903636] text-[#D4A051]"
+                    slug == "/service/umrah" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
                   UMRAH

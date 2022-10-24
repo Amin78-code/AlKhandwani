@@ -46,11 +46,11 @@ const Footer = () => (
           <Image src={Logo} width={340} height={80} />
           <p className="mb-4 mt-10">
             <strong>Email:</strong>
-            <a href="mailto:abc@email.com">abc@email.com</a>
+            <a href="mailto:abc@email.com"> abc@email.com</a>
           </p>
           <p className="mb-4">
             <strong>Telephone:</strong>
-            <a href="tel:000-000-000">000-000-000</a>
+            <a href="tel:000-000-000"> 000-000-000</a>
           </p>
           <p className="text-[18px] leading-[26px] mt-[20px] mb-4">
             <strong>Address:</strong> 4140 Parker Rd. Allentown, New Mexico
@@ -99,62 +99,62 @@ const Footer = () => (
               <ul className=" ">
                 <li className="mb-3">
                   <Link href="home">
-                    <a>Home</a>
+                    <a className="trans3 hover:text-white">Home</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>About</a>
+                    <a className="trans3 hover:text-white">About</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Services</a>
+                    <a className="trans3 hover:text-white">Services</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Hajj</a>
+                    <a className="trans3 hover:text-white">Hajj</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Umrah</a>
+                    <a className="trans3 hover:text-white">Umrah</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Air Tickting</a>
+                    <a className="trans3 hover:text-white">Air Tickting</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="">
-                    <a>Contact</a>
+                    <a className="trans3 hover:text-white">Contact</a>
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="lg:pr-10 pb-12 lg:pb-0">
-              <h3 className="mb-6 text-lg   font-bold">Services</h3>
+              <h3 className="mb-6 text-lg font-bold">Services</h3>
               <ul className=" ">
                 <li className="mb-3">
                   <Link href="">
-                    <a>Products</a>
+                    <a className="trans3 hover:text-white">Products</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Claims</a>
+                    <a className="trans3 hover:text-white">Claims</a>
                   </Link>
                 </li>
                 <li className="mb-3">
                   <Link href="">
-                    <a>Renewals</a>
+                    <a className="trans3 hover:text-white">Renewals</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="">
-                    <a>Support</a>
+                    <a className="trans3 hover:text-white">Support</a>
                   </Link>
                 </li>
               </ul>

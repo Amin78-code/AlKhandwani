@@ -6,7 +6,7 @@ import TourDescription from "./TourDescription";
 import TourRegistration from "./TourRegistration";
 import TourReviews from "./TourReviews";
 
-const ServicesDescription = () => {
+const ServicesDescription = ({ serviceDetails }) => {
   const [tourDetails, setTourDetails] = useState({
     isDescription: true,
     isRegistration: false,
@@ -40,45 +40,22 @@ const ServicesDescription = () => {
   };
   return (
     <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border px-[15px]  mx-auto lg:mx-[unset] py-[30px] ">
-      <h1 className="text-[32px] text-[#434e59]">HAJJ</h1>
-      <div className="flex flex-col md:flex-row gap-y-[10px] gap-x-[10px]">
-        <span>4 Days, 5 Nights</span>
-        <span className="flex items-center">
-          <AiFillStar className="text-[#903636]" />
-          <AiFillStar className="text-[#903636]" />
-          <AiFillStar className="text-[#903636]" />
-          <AiFillStar className="text-[#903636]" />
-          <AiFillStar className="text-[#903636]" />
+      <h1 className="text-[32px] text-[#434e59] leading-[36px]">{serviceDetails.title}</h1>
+      <div className="flex flex-col md:flex-row gap-y-[10px] gap-x-[20px]">
+        <span>{serviceDetails.duration}</span>
+        <span className="flex gap-x-[5px]">
+          <span className="flex items-center">
+            <App stars={serviceDetails.stars} />
+          </span>
+          <span>({serviceDetails.review} Reviews)</span>
         </span>
-        <span> (3 Reviews) Code: LMPROU $500 </span>
+        <span>Code: {serviceDetails.code}</span>
+        <span>{serviceDetails.price} </span>
       </div>
       <div className=" xl:w-[718px]">
-        <Image src={packageImage} alt="packageImage" />
+        <Image src={serviceDetails.img} alt="packageImage" />
         <p className="text-[14px] text-[#626b72] mt-[30px] leading-2">
-          The Hajj is a demonstration of the solidarity of the Muslim people and
-          their submission to Allah. Muslims from all over the world gather once
-          in a year in the holy city of Makkh and perform Hajj progression which
-          is a symbol of being One Nation (Ummat e wahida). Hajj is a pilgrimage
-          to holy city of Makkah in order to full fill the order of Allah ta’la
-          in commemoration of sacrifice of Hazrat Ibrahim (A.S), his wife Hazrat
-          Hajra and son Hazrat Ismail (A.S). It is currently the largest annual
-          pilgrimage in the world, and is the fifth pillar of Islam, an
-          obligation that must be carried out at least once in their lifetime by
-          every able-bodied Muslim who can afford to do so. Serving pilgrims is
-          not only a job rather it is divine duty and those who are sincerely
-          involved in this field are blessed by Allah Subhanho wa Ta’ala. Team
-          of Alkhandwani International Pvt limited have been offering
-          appropriate Hajj packages with economical price carrying all
-          reasonable facilities. Chief Executive of Alkhandwani International
-          Pvt limited-Hafiz Muhammad Siddiq Khandwani has been supervising,
-          managing and leading the Hajj groups as group leader since 1998. He
-          has been performing his sacred duties with passion and zeal. He has
-          executed 16 successful Hajj Operations as a group leader. His personal
-          attention to every Pilgrim is the most significant feature of hajj
-          Package of Alkhandwani International. Training sessions are conducted
-          under the kind supervision of Qari Ziaur Rehman sahib- Khateeb o Imama
-          Jama Masjid Bilal MACHS. The religious scholars and Mufti Hazraat are
-          also accompanied with him for the religious guidance.
+          {serviceDetails?.detail_text}
         </p>
         <div className="mt-[30px]">
           <div className="flex justify-between border border-[#e2cbcb] bg-[white]">
@@ -110,6 +87,15 @@ const ServicesDescription = () => {
         </div>
       </div>
     </div>
+  );
+};
+let App = ({stars}) => {
+  return (
+    <>
+      {Array.from(Array(stars), (e, i) => {
+        return <AiFillStar key={i} className="text-[#903636]" />;
+      })}
+    </>
   );
 };
 

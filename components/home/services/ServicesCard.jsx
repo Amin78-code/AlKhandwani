@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function ServicesCard({ service }) {
   return (
-    <Link href="/services/details">
+    <Link href="/service/details">
       <a className="w-[auto]">
         <div className="max-w-full sm:max-w-[430px] min-h-[220px] flex justify-center items-center overflow-hidden relative group">
           <div className="w-[130px] h-[20px] text-[11px] text-center text-white leading-[20px] img-container bg-[#d4a051] rotate-[-45deg] overflow-hidden shadow-[0_0_7px_2px_rgba(0,0,0,0.3)] absolute left-[-30px] top-[20px] z-[4]">

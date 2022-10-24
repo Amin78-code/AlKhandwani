@@ -26,7 +26,7 @@ const SubscribeUs = () => {
               />
               <button
                 type="button"
-                className="absolute right-[260px] text-white   bg-[#903636] hover:bg-[#d4a051]   hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-10 py-2.5 text-center  "
+                className="absolute right-[260px] text-white bg-[#903636] trans3 hover:bg-[#d4a051] hover:border-[#903636] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-10 py-2.5 text-center  "
               >
                 Submit
               </button>

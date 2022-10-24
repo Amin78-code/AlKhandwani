@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/common/hero/Hero";
-import Services from "../components/home/services/Services";
+import Service from "../components/home/services/Services";
 import Layout from "../components/Layout/Layout";
 import Masjid_al_Haram from "../assets/images/Masjid-ul-Haram-1.jpg";
 import Madina from "../assets/images/madina.jpg";
@@ -51,11 +51,11 @@ const services = [
   },
 ];
 
-function Service() {
+function Services() {
   return (
     <Layout>
       <Hero page="service" />
-      <Services
+      <Service
         services={services}
         headingPart1="Packages"
         headingPart2="We provide"
@@ -66,4 +66,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default Services;

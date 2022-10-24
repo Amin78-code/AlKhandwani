@@ -28,7 +28,7 @@ const About = () => {
           <div className="flex gap-x-[30px]">
             <button
               type="button"
-              className="text-white border border-transparent bg-[#d4a051] hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
+              className="text-white border border-transparent bg-[#d4a051] trans3 hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
             >
               Book Your Destination
             </button>

@@ -69,7 +69,6 @@ const TopDestinations = () => {
                   <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px] pt-[10px] lg:pt-[77px] px-[10px] mx-auto lg:px-[30px] pb-10">
                     <div>
                       <span className="text-[22px] md:text-[35px] lg:text-[50px]">
-                        {" "}
                         VENICE
                       </span>
                       ,
@@ -86,7 +85,7 @@ const TopDestinations = () => {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod commodo consequat awesome dolore porem.
                     </p>
-                    <div className="flex gap-x-[30px]">
+                    <div className="flex gap-x-[10px]">
                       <button
                         type="button"
                         className="text-white border border-transparent bg-[#d4a051] trans3 hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[18px] md:text-[15px] lg:text-[18px] px-7 py-2.5 text-center  "
