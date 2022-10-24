@@ -2,6 +2,7 @@ import heroImage from "../../../assets/images/Masjid-ul-Haram-3.jpg";
 import Image from "next/image";
 import styles from "../../../styles/Hero.module.css";
 import Button from "../../common/button/Button";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -22,7 +23,11 @@ function Hero() {
           industry. Lorem Ipsum has been the industry&#39;s standard dummy text
           ever since the 1500s
         </p>
-        <Button btn1 content={"Get Started"} className=" mr-2 mb-2 mt-8" />
+        <Link href="/contact">
+          <a>
+            <Button btn1 content={"Get Started"} className=" mr-2 mb-2 mt-8" />
+          </a>
+        </Link>
       </div>
     </section>
   );

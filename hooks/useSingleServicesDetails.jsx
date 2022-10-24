@@ -8,7 +8,7 @@ import islamabad from "../assets/images/islamabad.jpg";
 import naran from "../assets/images/naran.jpg";
 import lahore from "../assets/images/lahore.jpg";
 
-function UseServiceDetails() {
+function useSingleServicesDetails() { 
   const router = useRouter();
   const slug = router.query.details;
   const [serviceDetails, setServiceDetails] = useState("");
@@ -125,14 +125,14 @@ function UseServiceDetails() {
       registration: "",
       reviews: "",
     },
-  ]);
+  ]); 
 
-  useEffect(() => {
+  useEffect(() => { 
     services.map((value) => {
-      console.log("slug", slug);
-      console.log("value.slug", value.slug);
+      // console.log("slug", slug);
+      // console.log("value.slug", value.slug);
       if (value.slug == slug) {
-        console.log("yes match");
+        // console.log("yes match");
         setServiceDetails(value);
       }
     });
@@ -141,4 +141,4 @@ function UseServiceDetails() {
   return serviceDetails;
 }
 
-export default UseServiceDetails;
+export default useSingleServicesDetails;

@@ -7,7 +7,7 @@ import islamabad from "../assets/images/islamabad.jpg";
 import naran from "../assets/images/naran.jpg";
 import lahore from "../assets/images/lahore.jpg";
 
-function UseServices() {
+function useCompanyServices() {
   const [services, setServices] = useState([
     {
       title: "HAJJ",
@@ -124,4 +124,4 @@ function UseServices() {
   ]);
   return services;
 }
-export default UseServices;
+export default useCompanyServices;

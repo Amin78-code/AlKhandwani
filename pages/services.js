@@ -10,7 +10,7 @@ import naran from "../assets/images/naran.jpg";
 import lahore from "../assets/images/lahore.jpg";
 import Affiliates from "../components/common/affilitates/Affiliates";
 import ChooseUs from "../components/home/choose-us/ChooseUs";
-import UseServices from "../hooks/UseServices";
+import useCompanyServices from "../hooks/useCompanyServices";
 
 // const services2 = [
 //   {
@@ -71,7 +71,7 @@ import UseServices from "../hooks/UseServices";
 // ];
 
 function Services() {
-  const services = UseServices();
+  const services = useCompanyServices();
   return (
     <Layout>
       <Hero page="service" />
