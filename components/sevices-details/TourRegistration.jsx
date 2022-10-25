@@ -1,8 +1,8 @@
 import React from "react";
 
-const TourRegistration = ({serviceDetails}) => {
+const TourRegistration = ({ serviceDetails }) => {
   return (
-    <div className="flex flex-col gap-y-[10px] pt-[10px] text-[18px] text-[#434e59]">
+    <div className="flex flex-col gap-y-[10px] pt-[10px] text-[18px] text-[#434e59] dark:text-[#fff]">
       <h2 className="text-[21px] font-semibold mt-[20px] border-b border-[#e2cbcb] pb-[10px]">
         Registration
       </h2>
