@@ -39,7 +39,7 @@ const ServicesDescription = ({ serviceDetails }) => {
     }
   };
   return (
-    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border dark:border-gray-100 px-[15px] mx-auto lg:mx-[unset] py-[30px] ">
+    <div className="w-full flex flex-col gap-y-[15px] md:gap-y-[20px] border dark:border-gray-100 px-[15px] mx-auto lg:mx-[unset] py-[30px] ">
       <h1 className="text-[32px] text-[#434e59] dark:text-[#fff] leading-[36px] capitalize">
         {serviceDetails.title}
       </h1>
@@ -63,7 +63,7 @@ const ServicesDescription = ({ serviceDetails }) => {
           <div className="flex  sm:justify-start sm:gap-x-[10px] lg:justify-between">
             <button
               type="button"
-              className={`text-white trans3  w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] md:px-[83px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px]  hover:text-[#fff]
+              className={`text-white trans3  w-full text-[11px] sm:text-xs lg:text-[0.85rem] px-[9px] sm:px-[30px] md:px-[83px] lg:px-[75px] py-[5px] sm:py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px]  hover:text-[#fff]
                ${
                  tourDetails.isDescription == true
                    ? "bg-[#903636]"
@@ -75,7 +75,7 @@ const ServicesDescription = ({ serviceDetails }) => {
             </button>
             <button
               type="button"
-              className={`text-white trans3 bg-[#d4a051 ] w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] md:px-[83px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px] hover:text-[#fff]
+              className={`text-white trans3 bg-[#d4a051 ] w-full text-[11px] sm:text-xs lg:text-[0.85rem] px-[9px] sm:px-[30px] md:px-[83px] lg:px-[75px] py-[5px] sm:py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px] hover:text-[#fff]
                ${
                  tourDetails.isRegistration == true
                    ? "bg-[#903636]"
@@ -87,7 +87,7 @@ const ServicesDescription = ({ serviceDetails }) => {
             </button>
             <button
               type="button"
-              className={`text-white trans3 bg-[#d4a051 ] w-full text-xs lg:text-[0.85rem] px-[13px] sm:px-[50px] lg:px-[75px] py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px] hover:text-[#fff]
+              className={`text-white trans3 bg-[#d4a051 ] w-full text-[11px] sm:text-xs lg:text-[0.85rem] px-[9px] sm:px-[30px] lg:px-[75px] py-[5px] sm:py-[15px] text-center hover:bg-[#903636] rounded-tl-[5px] rounded-tr-[5px] hover:text-[#fff]
                ${
                  tourDetails.isReviews == true
                    ? "bg-[#903636]"
