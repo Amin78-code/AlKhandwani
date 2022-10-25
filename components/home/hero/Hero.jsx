@@ -7,7 +7,7 @@ import Link from "next/link";
 function Hero() {
   return (
     <section className="border border-blue-400  w-full min-h-[100vh] flex justify-center items-center">
-      <div className={`border border-red-400 img-container w-full h-full absolute z-[-2]`}>
+      <div className={`border border-red-400 top-0 left-0 img-container w-full h-full absolute z-[-2]`}>
         <Image src={heroImage} layout="fill" />
       </div>
       {/* overlay */}

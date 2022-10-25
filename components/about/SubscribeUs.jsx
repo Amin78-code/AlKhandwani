@@ -10,7 +10,7 @@ const SubscribeUs = () => {
           className={`${styles2.inset_shadow_1} bg-[#00000080] w-full h-full absolute left-0 top-0 z-[1]`}
         ></div>
         <div className="w-full max-w-[1170px] mx-auto px-[20px]  text-center  relative z-[3]">
-          <div className="text-white flex flex-col gap-y-[40px]">
+          <div className="text-white flex flex-col gap-y-[20px]">
             <h3 className="text-[35px] font-bold ">
               SUBSCRIBE <span className="text-[#d4a051]">ALKHANDWANI </span>
             </h3>

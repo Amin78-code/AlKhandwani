@@ -30,14 +30,14 @@ const latestTours = [
 
 const Footer = () => (
   <footer
-    className="relative before:absolute  before:bg-[#e7b262]
+    className="relative before:absolute  before:bg-[#e7b262 ]
 
   lg:before:w-[37%] before:w-[100%]   before:left-0 before:top-0  before:h-[47%] lg:before:h-full 
 
-  after:absolute  after:bg-[#903636] 
+  after:absolute  after:bg-[#903636 ] 
 
   lg:after:w-[63%] after:w-[100%]  after:right-[unset]  after:bottom-0 after:h-[53%] lg:after:right-0 lg:after:top-0 lg:after:h-full 
-
+  bg-[#e7b262]
   "
   >
     <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
