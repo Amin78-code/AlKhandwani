@@ -33,6 +33,7 @@ a {
 .img-container img {
   width: 100% !important;
   height: 100% !important;
+  object-fit: cover;
 }
 .slick-dots li button:before {
   font-size: 14px;
