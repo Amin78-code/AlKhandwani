@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ServicesCard({ service }) {
-  console.log("service",service)
   return (
     <Link href={`/service/${service.slug}`}>
       <a className="w-[auto]">
@@ -14,7 +13,7 @@ function ServicesCard({ service }) {
           <div className="w-full min-h-[300px] img-container overflow-hidden absol ute left-0 top-0">
             <Image src={service.thumbnail} />
           </div>
-          <div className="w-full h-[60px] trans3 group-hover:h-full group-hover:pb-6 flex justify-end items-center flex-col overflow-hidden bg-[#ffedda ] bg-[#903636]  border text-center p-6 pb-[10px] absolute bottom-0 left-0">
+          <div className="w-full h-[60px] trans3 group-hover:h-full group-hover:pb-6 flex justify-end items-center flex-col overflow-hidden bg-[#ffedda ] bg-[#903636]  border border-white dark:border-black text-center p-6 pb-[10px] absolute bottom-0 left-0">
             <p className="text-[14px] text-[#fff] leading-[20px] pt-[20px] my-auto">
               {service?.short_description}
             </p>
