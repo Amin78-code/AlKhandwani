@@ -7,7 +7,7 @@ function SectionHeader({
   className,
   whiteTheme,
 }) {
-  console.log("whiteTheme",whiteTheme)
+  console.log("whiteTheme", whiteTheme);
   return (
     <div className={`text-center text-[#d4a051] ${className}`}>
       <h3 className="text-[30px] md:text-[35px] leading-[36px] md:leading-[40px] font-bold uppercase">
@@ -17,7 +17,7 @@ function SectionHeader({
       {subtitle && (
         <p
           className={`text-[16px] md:text-[18px] leading-[20px] md:leading-[22px] ${
-            whiteTheme ? "dark:text-green-400" : "dark:text-red-500"
+            whiteTheme ? "dark:text-[#333]" : "dark:text-[#fff]"
           }`}
         >
           {subtitle}

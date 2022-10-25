@@ -10,11 +10,10 @@ const About = () => {
         <div className="w-full h-[480px] img-container">
           <Image src={aboutImg} alt="img" />
         </div>
-        <div className="flex flex-col gap-y-[30px] lg:gap-y-[70px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[40px] px-[30px] mx-auto lg:px-[30px] text-[#d4a051] ">
+        <div className="flex flex-col gap-y-[30px] lg:gap-y-[70px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[40px] px-0 sm:px-[10px] md:px-[30px] mx-auto lg:px-[30px] text-[#d4a051] dark:text-[#fff]">
           <h4 className="text-[26px] md:text-[35px ] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px]">
             ABOUT <span className="text-[#903636] ">US</span>
           </h4>
-
           <p className="mt-[-10px]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

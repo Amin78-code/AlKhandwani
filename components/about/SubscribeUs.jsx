@@ -29,7 +29,7 @@ const SubscribeUs = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="p-[25px] md:p-[30px] text-[#333] h-[15px] w-full mx-auto md:h-[50px] border rounded-[30px] outline-none absolute left-0 top-0"
+                className="p-[25px] md:p-[30px] text-[#333] dark:text-[#fff] h-[15px] w-full mx-auto md:h-[50px] border rounded-[30px] outline-none absolute left-0 top-0"
               />
               <button
                 type="button"
