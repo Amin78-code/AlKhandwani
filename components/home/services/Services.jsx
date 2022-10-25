@@ -10,7 +10,7 @@ function Services({ services, headingPart1, headingPart2, subtitle, all }) {
           headingPart2={headingPart2}
           subtitle={subtitle}
         />
-        <div className="w-full flex flex-wrap justify-center items-center gap-x-6 gap-y-6 mt-[50px]">
+        <div className="w-full flex flex-wrap justify-center items-center gap-x-6 gap-y-6 mt-[20px] md:mt-[50px]">
           {services?.map((value, index) => { 
             return (
               <>

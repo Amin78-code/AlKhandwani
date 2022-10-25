@@ -34,8 +34,8 @@ const TopDestinations = ({services}) => {
     slidesToScroll: 1,
   };
   return (
-    <section className="w-full py-[30px] md:py-[70px] bg-gray-5 0">
-      <div className="w-full lg:max-w-[1170px]  mx-auto px-[20px]">
+    <section className="w-full py-[30px] md:py-[70px] bg-gray-5">
+      <div className="w-full lg:max-w-[1170px] mx-auto px-[20px]">
         <SectionHeader
           headingPart1="Top"
           headingPart2="Destinations"

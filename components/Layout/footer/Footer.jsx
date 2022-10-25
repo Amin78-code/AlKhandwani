@@ -114,16 +114,7 @@ const Footer = () => (
                     <a className="trans3 hover:text-white">Services</a>
                   </Link>
                 </li>
-                <li className="mb-3">
-                  <Link href="/service/hajj">
-                    <a className="trans3 hover:text-white">Hajj</a>
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link href="/service/umrah">
-                    <a className="trans3 hover:text-white">Umrah</a>
-                  </Link>
-                </li>
+
                 <li className="mb-3">
                   <Link href="/air-ticketing">
                     <a className="trans3 hover:text-white">Air Ticketing</a>
@@ -140,23 +131,23 @@ const Footer = () => (
               <h3 className="mb-6 text-lg font-bold">Services</h3>
               <ul className=" ">
                 <li className="mb-3">
-                  <Link href="">
-                    <a className="trans3 hover:text-white">Products</a>
+                  <Link href="/service/hajj">
+                    <a className="trans3 hover:text-white">Hajj</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
-                    <a className="trans3 hover:text-white">Claims</a>
+                  <Link href="/service/umrah">
+                    <a className="trans3 hover:text-white">Umrah</a>
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link href="">
-                    <a className="trans3 hover:text-white">Renewals</a>
+                  <Link href="/service/hajj">
+                    <a className="trans3 hover:text-white">Islamabad Tour</a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="">
-                    <a className="trans3 hover:text-white">Support</a>
+                <li className="mb-3">
+                  <Link href="/service/umrah">
+                    <a className="trans3 hover:text-white">Lahore Tour</a>
                   </Link>
                 </li>
               </ul>

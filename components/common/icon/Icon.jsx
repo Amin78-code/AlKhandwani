@@ -1,5 +1,5 @@
 import React from "react";
-import { IoIosClock } from "react-icons/io";
+import { IoIosClock, IoMdClose } from "react-icons/io";
 import { FiMenu, FiPhoneCall } from "react-icons/fi";
 import { BsYoutube, BsChevronRight } from "react-icons/bs";
 import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
@@ -15,6 +15,7 @@ function Icon({
   cancel,
   call,
   className,
+  close,
 }) {
   return (
     <>
@@ -26,6 +27,7 @@ function Icon({
       {youtube && <BsYoutube className={`${className}`} />}
       {chevronRight && <BsChevronRight className={`${className}`} />}
       {call && <FiPhoneCall className={`${className}`} />}
+      {close && <IoMdClose className={`${className}`} />}
     </>
   );
 }

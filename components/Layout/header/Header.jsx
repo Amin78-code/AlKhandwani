@@ -156,17 +156,32 @@ function Header() {
                 </li>
               </a>
             </ul>
-            <span
-              className="block lg:hidden"
-              onClick={() => setShowMobMenu(!showMobMenu)}
-            >
-              <Icon
-                burgerMenu
-                className={
-                  " text-[30px] px-1.5 py-1 border broder-white w-[50px] h-[40px] rounded-[5px] cursor-pointer relative z-[3]"
-                }
-              />
-            </span>
+
+            {showMobMenu == true ? (
+              <span
+                className="block lg:hidden relative z-[12]"
+                onClick={() => setShowMobMenu(!showMobMenu)}
+              >
+                <Icon
+                  close
+                  className={
+                    "text-[30px] text-[#903636] w-[40px] h-[30px] rounded-[5px] cursor-pointer"
+                  }
+                />
+              </span>
+            ) : (
+              <span
+                className="block lg:hidden relative z-[12]"
+                onClick={() => setShowMobMenu(!showMobMenu)}
+              >
+                <Icon
+                  burgerMenu
+                  className={
+                    "text-[30px] text-[#D4A051] w-[40px] h-[30px] rounded-[5px] cursor-pointer"
+                  }
+                />
+              </span>
+            )}
           </nav>
         </header>
       </div>
