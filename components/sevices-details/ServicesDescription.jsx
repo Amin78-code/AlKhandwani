@@ -39,7 +39,7 @@ const ServicesDescription = ({ serviceDetails }) => {
     }
   };
   return (
-    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border px-[15px]  mx-auto lg:mx-[unset] py-[30px] ">
+    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border dark:border-gray-200 px-[15px] mx-auto lg:mx-[unset] py-[30px] ">
       <h1 className="text-[32px] text-[#434e59] leading-[36px] capitalize">
         {serviceDetails.title}
       </h1>

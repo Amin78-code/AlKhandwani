@@ -1,8 +1,7 @@
-import React from "react";
-import ServicesDescription from "./ServicesDescription";
-import ServicesForm from "./ServicesForm";
 import Hero from "../common/hero/Hero";
+import ServicesForm from "./ServicesForm";
 import PreLoader from "../common/pre-loader/PreLoader";
+import ServicesDescription from "./ServicesDescription";
 
 const ServicesDetails = ({ serviceDetails }) => {
   return (

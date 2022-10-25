@@ -5,7 +5,7 @@ import profile1 from "../../../assets/images/profile/profile1.png";
 function TestimonialCard() {
   return (
     <div className="max-w-[560px] mx-auto flex justify-end items-center pr-[3%] cursor-pointer group mb-[30px]">
-      <div className="w-full sm:w-[80%] bg-white border rounded-[20px] text-center relative pl-4 sm:pl-[50px] p-4">
+      <div className="w-full sm:w-[80%] bg-white group-hover:bg-gray-50 border rounded-[20px] text-center relative pl-4 sm:pl-[50px] p-4">
         <div className="hidden sm:block max-w-[80px] max-h-[80px] sm:max-w-[115px] sm:max-h-[115px] trans3 group-hover:scale-[1.1] rounded-full img-container border-[2px] border-[#d4a05151] overflow-hidden absolute left-[-40px] sm:left-[-80px] top-[50%] translate-y-[-50%]">
           <Image src={profile1} />
         </div>

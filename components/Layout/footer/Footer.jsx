@@ -128,7 +128,11 @@ const Footer = () => (
               </ul>
             </div>
             <div className="lg:pr-10 pb-12 lg:pb-0">
-              <h3 className="mb-6 text-lg font-bold">Services</h3>
+              <Link href="/services">
+                <a>
+                  <h3 className="mb-6 text-lg font-bold">Services</h3>
+                </a>
+              </Link>
               <ul className=" ">
                 <li className="mb-3">
                   <Link href="/service/hajj">
