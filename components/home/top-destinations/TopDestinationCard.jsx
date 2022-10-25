@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const TopDestinationCard = ({ destination }) => {
   return (
-    <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none dark:md:border-none dark:border-gray-200 mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[20px] md:mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px] cursor-pointer">
+    <div className="flex flex-col md:flex-row gap-x-[30px] border md:border-none dark:md:border-none dark:border-gray-100 mx-[2px] md:shadow-[0px_0px_25px_7px_rgb(209,209,209,0.35)] mt-[20px] md:mt-[50px] rounded-[10px] overflow-hidden md:mx-[30px] mb-[30px] cursor-pointer">
       <div className="w-full md:max-w-[500px] lg:max-h-[520px] img-container">
         <Image src={destination.image} alt="img" />
       </div>

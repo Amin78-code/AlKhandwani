@@ -39,8 +39,8 @@ const ServicesDescription = ({ serviceDetails }) => {
     }
   };
   return (
-    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border dark:border-gray-200 px-[15px] mx-auto lg:mx-[unset] py-[30px] ">
-      <h1 className="text-[32px] text-[#434e59] leading-[36px] capitalize">
+    <div className="flex flex-col gap-y-[15px] md:gap-y-[20px] border dark:border-gray-100 px-[15px] mx-auto lg:mx-[unset] py-[30px] ">
+      <h1 className="text-[32px] text-[#434e59] dark:text-[#fff] leading-[36px] capitalize">
         {serviceDetails.title}
       </h1>
       <div className="flex flex-col md:flex-row gap-y-[10px] gap-x-[20px]">
@@ -56,7 +56,7 @@ const ServicesDescription = ({ serviceDetails }) => {
       </div>
       <div className=" xl:w-[718px]">
         <Image src={serviceDetails.img} alt="packageImage" />
-        <p className="text-[14px] text-[#626b72] mt-[30px] leading-2">
+        <p className="text-[14px] text-[#626b72] dark:text-[#fff] mt-[30px] leading-2">
           {serviceDetails?.detail_text}
         </p>
         <div className="mt-[30px]">
@@ -67,7 +67,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isDescription == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("description")}
             >
@@ -79,7 +79,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isRegistration == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("registration")}
             >
@@ -91,7 +91,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isReviews == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("reviews")}
             >
