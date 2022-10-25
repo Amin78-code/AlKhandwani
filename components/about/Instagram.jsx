@@ -24,7 +24,7 @@ export default function Instagram() {
         />
         <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
           {gallery.map((gallery) => {
-            return <InstragramCard gallery = {gallery}  /> 
+            return <InstragramCard key={gallery.id} gallery = {gallery}  /> 
           })}
         </div>
       </div>
