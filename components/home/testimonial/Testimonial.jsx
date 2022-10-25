@@ -33,6 +33,7 @@ function Testimonial() {
           headingPart1="what customers"
           headingPart2="says"
           subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
+          whiteTheme
         />
 
         <div className="w-full mt-[50px]">

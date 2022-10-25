@@ -7,6 +7,7 @@ function SectionHeader({
   className,
   whiteTheme,
 }) {
+  console.log("whiteTheme",whiteTheme)
   return (
     <div className={`text-center text-[#d4a051] ${className}`}>
       <h3 className="text-[30px] md:text-[35px] leading-[36px] md:leading-[40px] font-bold uppercase">
