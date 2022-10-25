@@ -21,7 +21,7 @@ function CTA() {
             </div>
             <div>
               <h3 className="text-[20px] sm:text-[22px]">Get in Touch</h3>
-              <p className="text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">
+              <p className="text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px] dark:text-[#333]">
                 Lorem Ipsum has been the industry&#39;s standard dummy text ever
                 since the 1500s
               </p>
