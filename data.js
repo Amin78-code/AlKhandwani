@@ -17,6 +17,7 @@ export const data = [
     slug: "hajj",
     duration: "30 Days, 30 Nights",
     stars: 5,
+    designition: "Web Developer",
     review: "3",
     code: "LMPROU",
     thumbnail: Masjid_al_Haram,
@@ -33,6 +34,7 @@ export const data = [
         id: "r1",
         name: "Jessica Farnandes",
         image: Profile1,
+        designition: "Game Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -40,6 +42,7 @@ export const data = [
         id: "r2",
         name: "Adam Jhone",
         image: Profile1,
+        designition: "Web Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -53,6 +56,7 @@ export const data = [
       'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.',
     duration: "20 Days, 20 Nights",
     stars: 5,
+    designition: "Web Developer",
     review: "3",
     code: "LMPROU",
     price: "1,20,000",
@@ -71,6 +75,7 @@ export const data = [
         id: "r1",
         name: "Jessica Farnandes",
         image: Profile1,
+        designition: "Web Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -86,6 +91,7 @@ export const data = [
     slug: "turkey",
     duration: "11 Days, 11 Nights",
     stars: 5,
+    designition: "Web Developer",
     review: "34",
     code: "LMPROU",
     thumbnail: mosque,
@@ -102,6 +108,7 @@ export const data = [
         id: "r1",
         name: "Jessica Farnandes",
         image: Profile1,
+        designition: "Logo Designer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -109,6 +116,7 @@ export const data = [
         id: "r2",
         name: "Adam Jhone",
         image: Profile1,
+        designition: "Web Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -124,6 +132,7 @@ export const data = [
     slug: "islamabad",
     duration: "25 Days, 25 Nights",
     stars: 5,
+    designition: "Web Developer",
     review: "64",
     code: "LMPROU",
     thumbnail: islamabad,
@@ -147,6 +156,7 @@ export const data = [
     slug: "naran",
     duration: "22 Days, 22 Nights",
     stars: 5,
+    designition: "Project Manager",
     review: "13",
     code: "LMPROU",
     thumbnail: naran,
@@ -163,6 +173,7 @@ export const data = [
         id: "r1",
         name: "Jessica Farnandes",
         image: Profile1,
+        designition: "Project Manager",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -170,6 +181,7 @@ export const data = [
         id: "r2",
         name: "Adam Jhone",
         image: Profile1,
+        designition: "Project Manager",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -185,6 +197,7 @@ export const data = [
     slug: "lahore",
     duration: "19 Days, 19 Nights",
     stars: 5,
+    designition: "Web Developer",
     review: "8",
     code: "LMPROU",
     thumbnail: lahore,
@@ -201,6 +214,7 @@ export const data = [
         id: "r1",
         name: "Jessica Farnandes",
         image: Profile1,
+        designition: "App Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -208,6 +222,7 @@ export const data = [
         id: "r2",
         name: "Adam Jhone",
         image: Profile1,
+        designition: "Web Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -215,6 +230,7 @@ export const data = [
         id: "r3",
         name: "Ali Saleem",
         image: Profile1,
+        designition: "Back end Developer",
         review:
           "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
       },
@@ -226,6 +242,7 @@ export const data = [
           'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.',
         duration: "20 Days, 20 Nights",
         stars: 5,
+        designition: "Web Developer",
         review: "3",
         code: "LMPROU",
         price: "1,20,000",
@@ -244,6 +261,7 @@ export const data = [
             id: "r1",
             name: "Jessica Farnandes",
             image: Profile1,
+            designition: "App Developer",
             review:
               "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical on Latin literature from",
           },

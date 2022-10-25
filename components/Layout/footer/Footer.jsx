@@ -41,8 +41,8 @@ const Footer = () => (
   "
   >
     <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0  relative ">
-      <div className="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-[80px] pb-6 lg:pb-[80px]">
-        <div className="lg:w-[32%] pb-12 lg:pb-0 bg -[#e7b262] text-[#903636]">
+      <div className="container relative z-10 mx-auto lg:flex justify-between px-0 md:px-6 pt-8 lg:pt-[80px] pb-6 lg:pb-[80px]">
+        <div className="lg:w-[34%] pb-12 lg:pb-0 text-[#903636]">
           <Link href="/">
             <Image src={Logo} width={340} height={80} />
           </Link>
@@ -58,7 +58,7 @@ const Footer = () => (
             <strong>Address:</strong> 4140 Parker Rd. Allentown, New Mexico
             31134
           </p>
-          <div className="flex lg:justify-left items-left mt-12 lg:mt-10">
+          <div className="flex flex-wrap lg:justify-left items-left gap-y-[10px] mt-12 lg:mt-10">
             <a href="#">
               <div className="bg-[#fff] p-2 rounded-[5px] mr-2.5 flex flex-wrap gap-x-2 items-center capitalize text-[12px] group">
                 <Icon
@@ -94,11 +94,11 @@ const Footer = () => (
             </a>
           </div>
         </div>
-        <div className="lg:w-[60%] flex flex-col items-end bg- [#903636] text-[#e7b262] pt-[100px] md:pt-0">
+        <div className="lg:w-[60%] flex flex-col items-end bg- [#903636] text-[#903636] pt-[30px ] md:pt-0">
           <div className="w-full sm:flex justify-between  ">
             <div className="lg:pr-10 pb-12 lg:pb-0">
-              <h3 className="mb-6 text-lg   font-bold">Links</h3>
-              <ul className=" ">
+              <h3 className="mb-3 md:mb-6 text-lg font-bold">Links</h3>
+              <ul className="">
                 <li className="mb-3">
                   <Link href="/">
                     <a className="trans3 hover:text-white">Home</a>
@@ -153,8 +153,8 @@ const Footer = () => (
               </ul>
             </div>
             <div>
-              <h3 className="mb-6 text-lg   font-bold">Latest Tour Packages</h3>
-              <div className="flex flex-col justify-start items-center gap-y-3">
+              <h3 className="mb-6 text-lg font-bold">Latest Tour Packages</h3>
+              <div className="flex flex-col justify-start items-start md:items-center gap-y-3">
                 {latestTours?.map((value, index) => {
                   return (
                     <LatestTourCard

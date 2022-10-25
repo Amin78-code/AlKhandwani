@@ -8,7 +8,7 @@ const TopDestinationCard = ({ destination }) => {
         <div className="w-full md:max-w-[500px] lg:max-h-[520px] img-container">
           <Image src={destination.image} alt="img" />
         </div>
-        <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[30px] mx-auto lg:px-[30px] ">
+        <div className="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-full md:w-[570px ] py-[20px] md:py-[30px] lg:py-[77px] px-[20px] md:px-[30px] mx-auto">
           <h4 className="text-[26px] md:text-[35px] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px] uppercase">
             {destination.cityName},{" "}
             <span className="text-[#903636] ">{destination.countryName}</span>

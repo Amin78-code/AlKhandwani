@@ -6,13 +6,14 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="border border-blue-400  w-full min-h-[100vh] flex justify-center items-center">
-      <div className={`border border-red-400 top-0 left-0 img-container w-full h-full absolute z-[-2]`}>
+    <section className="w-full min-h-[100vh] flex justify-center items-center">
+      <div
+        className={`top-0 left-0 img-container w-full h-full absolute z-[-2]`}
+      >
         <Image src={heroImage} layout="fill" />
       </div>
-      {/* overlay */}
       <div
-        className={`border border-green-400 $ {styles.inset_shadow_1} bg-[#441f0d9f] w-full h-full absolute left-0 top-0 z-[-1]`}
+        className={`$ {styles.inset_shadow_1} bg-[#441f0d9f] w-full h-full absolute left-0 top-0 z-[-1]`}
       ></div>
       <div className="max-w-[840px] px-[20px] bg-[#44 1f0d9f] md:px-0 text-center text-white mt-[20px]">
         <h1 className="text-[40px] sm:text-[60px] md:text-[70px] leading-[40px] sm:leading-[60px] md:leading-[70px] font-[700]">
@@ -23,7 +24,7 @@ function Hero() {
           industry. Lorem Ipsum has been the industry&#39;s standard dummy text
           ever since the 1500s
         </p>
-        <Link href="/contact">
+        <Link href="/services">
           <a>
             <Button btn1 content={"Get Started"} className=" mr-2 mb-2 mt-8" />
           </a>

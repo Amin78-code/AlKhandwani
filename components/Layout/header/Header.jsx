@@ -1,7 +1,7 @@
 import styles from "../../../styles/Header.module.css";
 import Image from "next/image";
 import Head from "next/head";
-import Logo from "../../../assets/images/logo/logo.png";
+import Logo from "../../../assets/images/logo/logo3.png";
 import Icon from "../../common/icon/Icon";
 import { Fragment, useState } from "react";
 import Link from "next/link";
@@ -60,7 +60,7 @@ function Header() {
               <Link href="/">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -73,7 +73,7 @@ function Header() {
               <Link href="/about">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/about" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -86,7 +86,7 @@ function Header() {
               <Link href="/services">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/services" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -99,7 +99,7 @@ function Header() {
               <Link href="/service/hajj">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/service/hajj" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -112,7 +112,7 @@ function Header() {
               <Link href="/service/umrah">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/service/umrah" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -124,7 +124,7 @@ function Header() {
               <Link href="/airticketing">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/airticketing" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -136,7 +136,7 @@ function Header() {
               <Link href="/contact">
                 <a>
                   <li
-                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] cursor-pointer ${
+                    className={`text-[12px] xl:text-[15px] font-[600] trans3 hover:text-[#903636] uppercase cursor-pointer ${
                       slug == "/contact" &&
                       "text-[#fff] bg-[#D4A051] py-[3px] px-2.5 rounded-[5px]"
                     }`}
@@ -177,7 +177,7 @@ function Header() {
                 <Icon
                   burgerMenu
                   className={
-                    "text-[30px] text-[#D4A051] w-[40px] h-[30px] rounded-[5px] cursor-pointer"
+                    "text-[30px] text-[#fff] w-[40px] h-[30px] rounded-[5px] cursor-pointer"
                   }
                 />
               </span>
