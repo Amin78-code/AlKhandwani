@@ -67,7 +67,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isDescription == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] dark:text-[#fff] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("description")}
             >
@@ -79,7 +79,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isRegistration == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] dark:text-[#fff] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("registration")}
             >
@@ -91,7 +91,7 @@ const ServicesDescription = ({ serviceDetails }) => {
                ${
                  tourDetails.isReviews == true
                    ? "bg-[#903636]"
-                   : "bg-[#fff] dark:bg-[#333] text-[#333] border-0 border-b"
+                   : "bg-[#fff] dark:bg-[#333] dark:text-[#fff] text-[#333] border-0 border-b"
                }`}
               onClick={() => handleTourDetails("reviews")}
             >

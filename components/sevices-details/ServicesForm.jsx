@@ -10,23 +10,23 @@ const ServicesForm = () => {
             <input
               type="text"
               placeholder="Name"
-              className=" p-[10px] border outline-none"
+              className="dark:text-[#fff] p-[10px] border outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className=" p-[10px] border outline-none"
+              className="dark:text-[#fff] p-[10px] border outline-none"
             />
             <input
               type="number"
               placeholder="Phone Number"
-              className=" p-[10px] border outline-none"
+              className="dark:text-[#fff] p-[10px] border outline-none"
             />
             <textarea
               cols="30"
               rows="10"
               placeholder="Requirements"
-              className="p-[10px] border outline-none"
+              className="dark:text-[#fff] p-[10px] border outline-none"
             ></textarea>
             <button
               type="button"
