@@ -1,6 +1,5 @@
-import React from "react";
-import Contact from "../components/contact/Contact";
 import Layout from "../components/Layout/Layout";
+import Contact from "../components/contact/Contact";
 
 const contact = () => {
   return (

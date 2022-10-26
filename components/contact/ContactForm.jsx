@@ -18,7 +18,7 @@ const ContactForm = () => {
   return (
     <div className="flex flex-col text-[#434e59] dark:text-[#fff] w-full lg:w-[755px]">
       <div>
-        <form onSubmit={contactMessage}>
+        <form onSubmit={contactMessage} className="text-[14px] md:text-[16px]">
           <div className="flex flex-col gap-y-[20px]">
             <input
               type="text"

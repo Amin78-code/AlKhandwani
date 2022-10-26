@@ -198,7 +198,7 @@ function Header() {
             <Link href="/">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -210,7 +210,7 @@ function Header() {
             <Link href="/about">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/about" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -222,7 +222,7 @@ function Header() {
             <Link href="/services">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/services" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -234,7 +234,7 @@ function Header() {
             <Link href="/service/hajj">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/service/hajj" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -246,7 +246,7 @@ function Header() {
             <Link href="/service/umrah">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/service/umrah" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -258,7 +258,7 @@ function Header() {
             <Link href="/airticketing">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/airticketing" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >
@@ -270,7 +270,7 @@ function Header() {
             <Link href="/contact">
               <a className="w-full block text-center">
                 <li
-                  className={` text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
+                  className={` uppercase text-[#903636] hover:text-[#D4A051] hover:bg-[#903636] block w-full text-[20px] font-[600] cursor-pointer py-3 ${
                     slug == "/contact" && "bg-[#903636] text-[#D4A051]"
                   }`}
                 >

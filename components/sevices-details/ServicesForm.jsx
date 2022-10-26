@@ -5,7 +5,7 @@ const ServicesForm = () => {
     <div className="w-full lg:w-[280px] xl:w-[340px] flex flex-col text-[#434e59]">
       <h1 className="text-[20px] xl:text-[26px] p-[7px] xl:p-[10px] border text-center bg-gray-50">ENQUIRE NOW</h1>
       <div className="p-[10px] border ">
-        <form>
+        <form className="text-[14px] md:text-[16px]">
           <div className="flex flex-col gap-y-[10px] ">
             <input
               type="text"

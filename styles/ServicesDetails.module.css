@@ -1,12 +1,5 @@
 .bgImage {
-    /* The image used */
-    background-image: url("../assets/images/services/brd-bg.jpg");
-  
-
-    
-        
-      
-    
-  }
-
-  
+  background-image: url("../assets/images/services/brd-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -9,15 +9,15 @@ const TourDescription = ({ serviceDetails }) => {
         Tour Description
       </h2>
       <div className="flex items-center gap-x-[5px] font-semibold">
-        <h3 className="text-[25px] pt-[5px]">P.S. Vaccination</h3>
+        <h3 className="text-[18px] pt-[5px]">P.S. Vaccination</h3>
         <Icon vaccine className="text-[25px] text-[#fb4c4c]" />
       </div>
-      <span>
+      <span className="text-[14px] md:text-[16px]">
         Complete doses of <span className="font-semibold">WHO</span> approved
         vaccines
       </span>
-      <p>{serviceDetails?.description?.content1}</p>
-      <span>{serviceDetails?.description?.content2}</span>
+      <p className="text-[14px] md:text-[16px]">{serviceDetails?.description?.content1}</p>
+      <span className="text-[14px] md:text-[16px]">{serviceDetails?.description?.content2}</span>
     </div>
   );
 };

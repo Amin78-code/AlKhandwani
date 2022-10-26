@@ -13,7 +13,7 @@ const ContactDetails = () => {
         Contact Details
       </h2>
       <div className="flex flex-col gap-y-[35px] pt-[18px]">
-        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-start gap-x-[15px]">
+        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-start gap-y-[10px] sm:gap-y-0 gap-x-[15px]">
           <div className="p-3 border-0 sm:border bg-[#d4a051] text-white rounded-md ">
             <ImLocation className="text-[35px]" />
           </div>
@@ -26,7 +26,7 @@ const ContactDetails = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-x-[15px]">
+        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-y-[10px] sm:gap-y-0 gap-x-[15px]">
           <div className="p-3 border-0 sm:border bg-[#d4a051] text-white rounded-md">
             <IoIosContact className="text-[35px]" />
           </div>
@@ -39,7 +39,7 @@ const ContactDetails = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-x-[15px]">
+        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-y-[10px] sm:gap-y-0 gap-x-[15px]">
           <div className="p-3 border-0 sm:border bg-[#d4a051] text-white rounded-md">
             <BsFillTelephoneFill className="text-[35px]" />
           </div>
@@ -57,7 +57,7 @@ const ContactDetails = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-x-[15px]">
+        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-y-[10px] sm:gap-y-0 gap-x-[15px]">
           <div className="p-3 border-0 sm:border bg-[#d4a051] text-white rounded-md">
             <FaFax className="text-[35px]" />
           </div>
@@ -70,7 +70,7 @@ const ContactDetails = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-x-[15px]">
+        <div className="flex flex-col text-center sm:text-left items-center sm:flex-row sm:items-center gap-y-[10px] sm:gap-y-0 gap-x-[15px]">
           <div className="p-3 border-0 sm:border bg-[#d4a051] text-white rounded-md">
             <MdEmail className="text-[35px]" />
           </div>
