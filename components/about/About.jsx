@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import aboutImg from "../../assets/images/abdulaziz-asiri.jpg";
 import Link from "next/link";
+import Button from "../common/button/Button";
 
 const About = () => {
   return (
@@ -28,12 +29,7 @@ const About = () => {
           <div className="flex gap-x-[30px]">
             <Link href={"/contact"}>
               <a>
-                <button
-                  type="button"
-                  className="text-white border border-transparent bg-[#d4a051] trans3 hover:bg-white hover:text-[#333] hover:border hover:border-[#d4a051] rounded-[2.5rem] text-[15px] sm:text-[18px] md:text-[15px] lg:text-[18px] px-3 sm:px-7 py-2.5 text-center  "
-                >
-                  Book Your Destination
-                </button>
+                <Button btn2 content={'Book Your Destination'} />
               </a>
             </Link>
           </div>

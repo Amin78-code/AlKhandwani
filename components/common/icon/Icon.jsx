@@ -1,9 +1,9 @@
-import React from "react";
-import { IoIosClock, IoMdClose } from "react-icons/io";
+import { TbVaccine } from "react-icons/tb";
+import { MdOutlineCancel } from "react-icons/md";
 import { FiMenu, FiPhoneCall } from "react-icons/fi";
+import { IoIosClock, IoMdClose } from "react-icons/io";
 import { BsYoutube, BsChevronRight } from "react-icons/bs";
 import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
-import { MdOutlineCancel } from "react-icons/md";
 
 function Icon({
   clock,
@@ -16,6 +16,7 @@ function Icon({
   call,
   className,
   close,
+  vaccine,
 }) {
   return (
     <>
@@ -28,6 +29,7 @@ function Icon({
       {chevronRight && <BsChevronRight className={`${className}`} />}
       {call && <FiPhoneCall className={`${className}`} />}
       {close && <IoMdClose className={`${className}`} />}
+      {vaccine && <TbVaccine className={`${className}`} />}
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { TbVaccine } from "react-icons/tb";
+import Icon from "../common/icon/Icon";
 
 const TourDescription = ({ serviceDetails }) => {
   return (
@@ -8,15 +9,15 @@ const TourDescription = ({ serviceDetails }) => {
         Tour Description
       </h2>
       <div className="flex items-center gap-x-[5px] font-semibold">
-        <h3 className="text-[25px] pt-[5px]">P.S. Vaccination </h3>
-        <TbVaccine className="text-[25px] text-[#ff0000]" />
+        <h3 className="text-[25px] pt-[5px]">P.S. Vaccination</h3>
+        <Icon vaccine className="text-[25px] text-[#fb4c4c]" />
       </div>
       <span>
         Complete doses of <span className="font-semibold">WHO</span> approved
         vaccines
       </span>
       <p>{serviceDetails?.description?.content1}</p>
-      <span> {serviceDetails?.description?.content2}</span>
+      <span>{serviceDetails?.description?.content2}</span>
     </div>
   );
 };

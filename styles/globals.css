@@ -38,7 +38,6 @@ a {
 .slick-dots li button:before {
   font-size: 14px;
   color: #903636;
-
 }
 .slick-dots li.slick-active button:before {
   color: #d4a051;
@@ -47,12 +46,12 @@ a {
   color: #903636;
 }
 .trans3 {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .trans2 {
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-@media(max-width:640px) {
+@media (max-width: 640px) {
   p {
     font-size: 14px;
   }
