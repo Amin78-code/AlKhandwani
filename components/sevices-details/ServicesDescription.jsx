@@ -54,8 +54,10 @@ const ServicesDescription = ({ serviceDetails }) => {
         <span>Code: {serviceDetails.code}</span>
         <span>Rs. {serviceDetails.price}</span>
       </div>
-      <div className=" xl:w-[718px]">
+      <div className=" xl:w -[718px]">
+        <div className="img-container">
         <Image src={serviceDetails.img} alt="packageImage" />
+        </div>
         <p className="text-[14px] text-[#626b72] dark:text-[#fff] mt-[30px] leading-2">
           {serviceDetails?.detail_text}
         </p>

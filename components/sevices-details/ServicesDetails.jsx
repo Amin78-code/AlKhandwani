@@ -10,7 +10,7 @@ const ServicesDetails = ({ serviceDetails }) => {
       {serviceDetails == "" ? (
         <PreLoader />
       ) : (
-        <div className="flex flex-col lg:flex-row justify-center mt-[20px] md:mt-[50px] gap-x-[10px] gap-y-[40px] px-[20px] pb-[40px]">
+        <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0 flex flex-col lg:flex-row justify-center mt-[20px] md:mt-[50px] gap-x-[10px] gap-y-[40px] pb-[40px]">
           <ServicesDescription serviceDetails={serviceDetails} />
           <ServicesForm />
         </div>

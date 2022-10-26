@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout/Layout";
-import ServicesDetails from "../../components/sevices-details/ServicesDetails";
 import useSingleServicesDetails from "../../hooks/useSingleServicesDetails";
+import ServicesDetails from "../../components/sevices-details/ServicesDetails";
 
 const Details = () => {
   const serviceDetails = useSingleServicesDetails();

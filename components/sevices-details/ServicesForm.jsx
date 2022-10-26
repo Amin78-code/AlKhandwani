@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesForm = () => {
   return (
-    <div className="w-full lg:w-[280px] xl:w-[300px] flex flex-col text-[#434e59]">
+    <div className="w-full lg:w-[280px] xl:w-[340px] flex flex-col text-[#434e59]">
       <h1 className="text-[20px] xl:text-[26px] p-[7px] xl:p-[10px] border text-center bg-gray-50">ENQUIRE NOW</h1>
       <div className="p-[10px] border ">
         <form>
