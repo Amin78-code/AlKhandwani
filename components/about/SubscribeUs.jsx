@@ -17,7 +17,7 @@ const SubscribeUs = () => {
               <h3 className="text-[30px] md:text-[35px] leading-[36px] md:leading-[40px] font-bold ">
                 SUBSCRIBE <span className="text-[#d4a051]">ALKHANDWANI </span>
               </h3>
-              <p className="text-[16px] md:text-[18px] leading-[20px] md:leading-[22px] mt-3">
+              <p className="text-[16px] md:text-[18px] leading-[20px] md:leading-[22px] pt-[5px] sm:pt0 mt-3">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonumm
               </p>

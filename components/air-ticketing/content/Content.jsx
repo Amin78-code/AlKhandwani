@@ -4,7 +4,7 @@ function Content() {
       <div className="flex justify-center items-canter gap-x-[50px] w-full lg:max-w-[1440px]  mx-auto px-[20px]">
         <div className="flex flex-col gap-y-[10px] lg:gap-y-[20px] w-full md:w-[570px ] py-[10px] md:py-[30px] lg:py-[40px] px-0 sm:px-[10px] md:px-[30px] mx-auto lg:px-[30px] text-[#d4a051] dark:text-[#fff]">
           <h4 className="text-[26px] md:text-[35px ] lg:text-[50px] leading-[20px] md:leading-[35px] lg:leading-[50px]">
-            Air <span className="text-[#903636] ">Ticketing</span>
+            <span className="dark:text-[#d4a051] ">Air</span> <span className="text-[#903636] ">Ticketing</span>
           </h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

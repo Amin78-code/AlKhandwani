@@ -60,7 +60,7 @@ const IncrediblePlaces = () => {
           subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm"
         />
         {/* slider */}
-        <div className="mt-[20px] md:mt-[50px]">
+        <div className="w-full max-w-[1400px] mx-auto px-[20px] sc1440:px-0 mt-[20px] md:mt-[50px]">
           <Slider {...settings}>
             {sliderData.map((data) => {
               return (

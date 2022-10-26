@@ -52,3 +52,8 @@ a {
 .trans2 {
   transition: all .2s ease;
 }
+@media(max-width:640px) {
+  p {
+    font-size: 14px;
+  }
+}

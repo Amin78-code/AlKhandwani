@@ -16,7 +16,7 @@ function SectionHeader({
       </h3>
       {subtitle && (
         <p
-          className={`text-[16px] md:text-[18px] leading-[20px] md:leading-[22px] ${
+          className={`text-[16px] md:text-[18px] leading-[20px] md:leading-[22px] pt-[5px] sm:pt0 ${
             whiteTheme ? "dark:text-[#333]" : "dark:text-[#fff]"
           }`}
         >
